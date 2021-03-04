@@ -73,7 +73,7 @@ Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
 
 7. Eukaryotic exercise
      - [Introductory presentation](presentations/) - ***TO DO***
-     - [Online manual](manuals/) - ***TO DO***
+     - [Online manual](manuals/exercise_RNAseq/exercise_RNAseq.md)
      - [Manual PDF version](manuals/) - ***TO DO***
 
 8. Bacterial exercise
