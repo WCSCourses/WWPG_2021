@@ -39,7 +39,7 @@ In this part of the course we will align the Illumina reads from a generated fro
 
 
 
-![Resequencing workflow](images/module2_image1.png)
+![Resequencing workflow](figures/module2_image1.png)
 
 **Figure**. Workflow of re-sequencing, alignment, and *in silico* analysis
 
@@ -69,14 +69,14 @@ The FASTQ sequence format is shown below.
 
 
 
-![FASTQ format](images/module2_image2.png)
+![FASTQ format](figures/module2_image2.png)
 
 **Figure**. FASTQ sequence file format
 
 
 To begin the exercise we need to open up a terminal window. We will then need to move into the ‘Module_2_Mapping’ directory using the UNIX command ‘cd’ .
 
-![terminal](images/module2_image3.png)
+![terminal](figures/module2_image3.png)
 
 **Figure**. Terminal window
 
@@ -113,7 +113,7 @@ bwa index L2_cat.fasta
 ```
 The command and expected output are shown below. Be patient and wait for the command prompt (~/Module_2_Mapping$) to return before proceeding to Stage 2.
 
-![terminal](images/module2_image4.png)
+![terminal](figures/module2_image4.png)
 
 **Step 2**  
 We will now align both the forward and the reverse reads against our now indexed reference sequence. The forward and reserve reads are contained in files NV_1.fastq.gz and NV_2.fastq.gz, and the output will be saved in SAM format.  
@@ -124,7 +124,7 @@ Perform the alignment with the following command and wait for it to finish runni
 
 bwa mem L2_cat.fasta NV_1.fastq.gz NV_2.fastq.gz > mapping.sam
 ```
-![bwamem](images/module2_image5.png)
+![bwamem](figures/module2_image5.png)
 
 
 
@@ -160,7 +160,7 @@ head mapping.sam
 
 The SAM/BAM file format is very powerful. It is unlikely that you will need to work with the contents of a SAM/BAM file directly, but it is very informative to visualise it in a viewer and it is a great format to do further analysis with. The format specifications are at http://samtools.sourceforge.net/SAM1.pdf. Below is a brief overview of the information contained in these files.
 
-![sam_bam](images/module2_image6.png)
+![sam_bam](figures/module2_image6.png)
 
 **Figure**. Example of the SAM file format
 
@@ -222,31 +222,31 @@ art &
 
 Once you see the initial Artemis window, open the file L2_cat.fasta via File – Open. Just to remind you, this file contains a concatenated sequence consisting of the *C. trachomatis* LGV strain ‘L2’ chromosome sequence along with its plasmid.
 
-![artemis_loadfasta](images/module2_image7.png)
+![artemis_loadfasta](figures/module2_image7.png)
 
 **Figure**. Loading fasta file into Artemis.
 
 Now load up the annotation file for the *C. trachomatis* LGV strain L2 chromosome.
 
-![artemis_loadannotation](images/module2_image8.png)
+![artemis_loadannotation](figures/module2_image8.png)
 
 **Figure**. Loading genome annotation into Artemis.
 
 To examine the read mapping we have just performed we are going to read our BAM file containing the mapped reads into Artemis as described below.Please make sure you do not go to a zoomed-out view of Artemis, but stay at this level, as display of BAM files does take time to load!
 
-![artemis_loadbam](images/module2_image9.png)
+![artemis_loadbam](figures/module2_image9.png)
 
 **Figure**. Loading a BAM file into Artemis.
 
 You should see the BAM window appear as in the screen shot below. Remember these reads are of the Swedish NV strain mapped against the LGV strain L2 reference genome. In the top panel of the window each little horizontal line represents a sequencing read. Notice that some reads are blue which indicates that these are unique reads, whereas green reads represent “duplicated” reads that have been mapped to exactly the same position on the reference sequence. To save space, if there are duplicated reads only one is shown, which means that there could be a large number of duplicated reads at a given position but the software only depicts one.
 
-![artemis_scroll](images/module2_image10.png)
+![artemis_scroll](figures/module2_image10.png)
 
 **Figure**. Moving around in Artemis
 
 If you click a read (1 & 2) its mate pair will also be selected. Also note that if the cursor hovers over a read for long enough details of that read will appear in a small box (3). If you want to know more then right-click and select ‘Show details of: READ NAME’ from the  menu (4). A window will appear (5) detailing the mapping quality (see over page), coordinates, whether it’s a duplicated read etc. If this read(s) covers a region of interest, being able to access this information easily can be really helpful.
 
-![artemis_reads](images/module2_image11.png)
+![artemis_reads](figures/module2_image11.png)
 
 **Figure**. Inspecting reads in Artemis
 
@@ -254,19 +254,19 @@ If you click a read (1 & 2) its mate pair will also be selected. Also note that 
 
 You can actually use several details relating to the mapping of a read to filter the reads from the BAM file that are shown in the window. To do this, right-click again over the stack plot window showing the reads and select “Filter Reads…”.  A window will appear with many options for filtering, as shown below.
 
-![artemis_filter](images/module2_image12.png)
+![artemis_filter](figures/module2_image12.png)
 
 **Figure**. Filtering reads in Artemis
 
 As mentioned before, to save space if there are duplicated reads only one is represented. But often one may want to know the actual read coverage on a particular region or see a graph of this coverage. You can do this by adding additional graphs as detailed below.
 
-![artemis_duplicates_coverage](images/module2_image13.png)
+![artemis_duplicates_coverage](figures/module2_image13.png)
 
 **Figure**. Graph of BAM coverage
 
 There are several other ways to view your aligned read information. Each one may only be subtly different but they are very useful for specific tasks as hopefully you will see. To explore the alternative read views right-click in the BAM panel (1 below) and select the ‘Views’ menu option (2 below):
 
-![artemis_views](images/module2_image14.png)
+![artemis_views](figures/module2_image14.png)
 
 **Figure**. Exploring read views
 
@@ -274,14 +274,14 @@ We have already looked at ‘Stack’ view.
 The Coverage view: just like adding the coverage plot above you can also convert the Stack view to a coverage view. This can be useful when multiple BAM files are loaded as a separate plot is shown for each. You can also look at the coverage for each strand individually by using the Coverage by Strand option. You can now also view the coverage as a Heat Map, with darker colours displaying higher coverage.
 The ‘Strand Stack’ view (shown below), with the forward and reverse strand reads above and below the scale respectively. Useful for strand specific applications or for checking for strand-specific artifacts in your data. See picture below.
 
-![artemis_strand_stack](images/module2_image15.png)
+![artemis_strand_stack](figures/module2_image15.png)
 
 **Figure**. Read coverage by strand.
 
 Alternative views continued:
 d) The ‘Paired Stack’ view (inverted reads are red) joins paired reads. This can be useful to look for rearrangements and to confirm that regions are close together in the reference and the genome from which the aligned reads originate.
 
-![artemis_paired_stack](images/module2_image16.png)
+![artemis_paired_stack](figures/module2_image16.png)
 
 **Figure**. Paired stack highlighting paired-end reads
 
@@ -289,7 +289,7 @@ d) The ‘Paired Stack’ view (inverted reads are red) joins paired reads. This
 e) The ‘Inferred Size’ is similar to the ‘Paired Stack” view, but it orders the read pairs along the y-axis by their inferred insert size which is calculated from the aligned positions of the mates on the reference sequence (1). Optionally you can display the inferred insert sizes on a log scale (2). Note that Illumina libraries are usually made from size fractionated DNA fragments of about 250bp-500bp.
 So this is not the actual library fragment size, although you would expect it to correlate closely, and be relatively constant, if your reference was highly conserved with the sequenced strain. The utility of this can seem a little obscure but its not and can be used to look for insertions and deletions as will be shown later in this Module.
 
-![artemis_inferred_size](images/module2_image17.png)
+![artemis_inferred_size](figures/module2_image17.png)
 
 **Figure**. Paired stack highlighting inferred distance between paired reads.
 
@@ -300,25 +300,25 @@ So this is not the actual library fragment size, although you would expect it to
 ## 5. Artemis - Viewing SNPs <a name="artemis_snps"></a>
 Start by returning your view back to ‘Stack’ view
 
-![artemis_snps](images/module2_image18.png)
+![artemis_snps](figures/module2_image18.png)
 
 **Figure**. Showing SNP marks on raw reads (1)
 
 To view SNPs use your right mouse button to click in the BAM view window (the panel showing the coloured sequence reads; 1 see above). Then in the popup menu click on  2 ‘Show’ and 3 and check the ‘SNP marks’ box. Single nucleotide differences between the read data and the reference sequence are shown as red marks on the individual reads as shown below.
 
-![artemis_snps2](images/module2_image19.png)
+![artemis_snps2](figures/module2_image19.png)
 
 **Figure**. Showing SNP marks on raw reads (2)
 
 In other words, the red marks appear on the stacked reads highlighting every base in a read that does not match the reference. When you zoom in you can see some differences that are present in all reads and appear as vertical red lines, whereas others are more sporadically distributed. The former are more likely to be true SNPs whereas the latter may be sequencing errors, although this would not always be true.
 
-![artemis_snps3](images/module2_image20.png)
+![artemis_snps3](figures/module2_image20.png)
 
 **Figure**. Sorting "true" SNPs from sequencing errors
 
 If you zoom in further, the sequence of the individual sequence reads and the actual SNPs become visible, with the reference sequence highlighted in grey at the top. If you click on amino acids or bases in the sequence view (1), they will be highlighted in the sequence reads (2).
 
-![artemis_zoomsnps](images/module2_image21.png)
+![artemis_zoomsnps](figures/module2_image21.png)
 
 **Figure**. Zooming in on SNPs
 
@@ -336,14 +336,14 @@ If you adjust the zoom using the side sliders you should get a view similar to t
 
 - What could this mean?
 
-![artemis_diffcoverage](images/module2_image22.png)
+![artemis_diffcoverage](figures/module2_image22.png)
 
 **Figure**. Comparison of differential coverage in the genome
 
 
 Note that the display changes when you switch on the display of SNPs (right click – Show SNP marks). This is due to a difference in display of duplicate reads. Reads having the same start and end position after mapping are considered duplicates and are displayed in green in the bam view. However, apart from the true SNPs, these duplicate reads are likely to differ in the sequencing errors, thus have to be displayed individually when the SNPs are displayed (1).
 
-![artemis_diffcoverage_w_snps](images/module2_image23.png)
+![artemis_diffcoverage_w_snps](figures/module2_image23.png)
 
 **Figure**. Comparison of differential coverage in the genome and SNPs
 
@@ -356,7 +356,7 @@ Coming back to the increase in coverage, the answer is that since part of the se
 
 This is where the ‘Inferred Size’ view for the reads is useful. If you change the view as before to ‘Inferred Size’ and use the log scale you will see an image similar to the one below. You may have to adjust the view (1) to actually see the subset of reads that are shown above almost all other reads in this plot (2). The inferred insert size calculated from the alignment for this subset of reads is far bigger than the normal size range of other read pairs in this region (2) and there are no grey lines linking paired reads within the normal size range crossing this region (3). Together, this is indicative of a deletion in the DNA of the sequenced strain compared to the reference!
 
-![artemis_deletion](images/module2_image24.png)
+![artemis_deletion](figures/module2_image24.png)
 
 **Figure**. Comparison of insert length distribution between paired reads
 
@@ -364,7 +364,7 @@ You can also view multiple BAM files at the same time. Remember that a BAM file 
 
 We are not going to redo the mapping for a new organism, instead we have pre-processed the relevant FASTQ data for you. The file you will need is called L2b.bam. Follow the instructions below. Start by going back to a normal stacked read view and zooming in more detail.
 
-![artemis_L2b](images/module2_image25.png)
+![artemis_L2b](figures/module2_image25.png)
 
 **Figure**. Loading L2b data
 
@@ -374,15 +374,15 @@ In the first instance Artemis reads all the new reads into the same window. This
 First, clone the BAM view window.
 Right-click over the BAM window and select ‘Clone window’.
 
-![artemis_clone](images/module2_image26.png)
+![artemis_clone](figures/module2_image26.png)
 
 If you right-click over the top BAM window and select BAM files you can individually select the files as desired. This means you can display each BAM file in its own window by de-selecting one or the other file.
 
-![artemis_selectbams](images/module2_image27.png)
+![artemis_selectbams](figures/module2_image27.png)
 
 Now go back to the plasmid region at the end of the genome sequence and have a look at the previously un-mapped region located around base position 1044200. You can see that the newly added BAM file (for L2b) shows no such deletion with reads covering this region (as shown below). Have a look at the inferred read sizes, too.
 
-![artemis_selectbams](images/module2_image28.png)
+![artemis_selectbams](figures/module2_image28.png)
 
 **Figure**. Comparison of mapped reads between the two strains  
 
@@ -437,15 +437,15 @@ OR you can use the more conventional file manager if you prefer.
 
 
 
-![vcf](images/module2_image29.png)
+![vcf](figures/module2_image29.png)
 
 **Figure**. Example of VCF / BCF file format
 
 To look at a region with some interesting sequence variation, go again to the end of the sequence or to base position 1043000 using either the sliders, the GoTo menu or the ‘Navigator’.
 Next read the BCF file that you have just created into Artemis by selecting menus and options as shown below.
 
-![vcf_load](images/module2_image30.png)
-![vcf_load](images/module2_image31.png)
+![vcf_load](figures/module2_image30.png)
+![vcf_load](figures/module2_image31.png)
 
 **Figure**. Loading BAM and VCF files
 
@@ -454,32 +454,32 @@ Below are the details of the three possible colour schemes for the variants in t
 
 
 **Table**. Artemis colour coding of different types of variants
-![vcf_snpcolours](images/module2_image32.png)
+![vcf_snpcolours](figures/module2_image32.png)
 
 You can read in multiple BCF files from different related bacterial isolates. To do this right-click over the BCF window and select ‘Add VCF’ (remember BCF and VCF are essentially the same thing).
 
-![vcf_addvcf](images/module2_image33.png)
+![vcf_addvcf](figures/module2_image33.png)
 
 Once you have read the additional BCF file into Artemis right-click in the BCF window and check the ‘Show Labels’ box to make it easier to see which BCF file is which.
 
-![vcf_showlabels](images/module2_image34.png)
+![vcf_showlabels](figures/module2_image34.png)
 
 What you should notice is that L2b has far fewer SNPs and INDELs than NV compared to the reference. This is because L2b is an LGV strain of Chlamydia and NV is an STI strain. We will come back to these relationships later in the next Module.
 
 
 As you may expect by now, Artemis also allows you to filter your VCF file.
 
-![vcf_filter1](images/module2_image35.png)
+![vcf_filter1](figures/module2_image35.png)
 
 Have a look through the variant filter window that pops up. You can select or unselect different SNP types or variants to modify your view. Non-variant sites are important because they differentiate sites where the data confirm that the sequence is the same as the reference from regions that appear not to contain SNPs simply because no reads map to them.
 
-![vcf_filter2](images/module2_image36.png)
+![vcf_filter2](figures/module2_image36.png)
 
 Like the BAM views you can also remove or include SNPs etc based on for example mapping score, depth of coverage or sequencing quality in the PROPERTY section listed under the INFO tab.
 
 Useful cutoff values are e.g. DP of at least 10 and Qual of at least 30.
 
-![vcf_filter2](images/module2_image37.png)
+![vcf_filter2](figures/module2_image37.png)
 
 [↥ **Back to top**](#top)
 
