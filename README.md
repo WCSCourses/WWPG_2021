@@ -86,7 +86,7 @@ Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
 
 
 
-Any reuse of data or code is encouraged with due acknowledgement, either via citation of the published manuscript (when available) and/or GitHub repository. Comments, suggestions, and discussion are welcome.
+Any reuse of the course materials, data or code is encouraged with due acknowledgement. **WHAT DO WE WANT TO SAY HERE SPECIFICALLY**
 
 ******
 ## License
