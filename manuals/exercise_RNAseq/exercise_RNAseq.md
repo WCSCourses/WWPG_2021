@@ -6,7 +6,7 @@
 1. [Introduction & Aims](#introduction)
 2. [Exercise - How does knockout of the transcription factor *ap2-g* affect gene expression in *Plasmodium*?](#exercise1)
 
-Plasmodium berghei is used as a rodent model of malaria. It is known that in the lab it can evolve to stop producing sexual stages (Figure 1). We want to try and use this observation to our advantage. If we can understand how the parasite switches to the sexual, transmissible stage, then we might better understand how to prevent this from happening and prevent the spread of malaria. 
+
 
 ## Introduction <a name="introduction"></a>
 
