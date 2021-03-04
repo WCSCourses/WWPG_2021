@@ -1,4 +1,4 @@
-# Module 5 - RNA-seq 1
+# Module 5 - Transcriptomics
 
 
 ## Table of contents
@@ -27,7 +27,7 @@ The aim of differential expression analysis is to determine which genes are more
 
 In this module we will address the effect of vector transmission on gene expression of the malaria parasite. Figure 1A shows the malaria life cycle, the red part highlighting the mosquito stage. Figure 1B shows the difference in virulence, measured by blood parasitemia, between mosquito-transmitted and serially blood passaged parasites. Is the transcriptome of a mosquito-transmitted parasite different from one which has not passed through a mosquito? The key reason for asking this question is that parasites which are transmitted by mosquito are less virulent in mice than those which are serially blood passaged in the laboratory. While mosquito transmitted and serially blood passaged parasites have exactly the same set of genes, perhaps they are using those genes differently. The data in this exercise, as well as figures 1B and 1C are taken from [Spence et al. (2013).](https://www.ncbi.nlm.nih.gov/pubmed/23719378), published by Springer Nature [https://www.nature.com/articles/nature12231]
 
-![](images/module5_image1.png)
+![](figures/module5_image1.png)
 
 **Figure 1. Serial blood passage increases virulence of malaria parasites.** (A) The lifecycle of plasmodium parasites involves mammalian and mosquito stages. Experiments in the lab often exclude the mosquito stage (red) and instead remove parasites from the blood of a mouse to infect another mouse (serial blood passage). (Source https://www.cdc.gov/) (B) Serially blood passaged parasites (red) are more virulent than mosquito-transmitted parasites (blue) as shown by their higher parasitemia over the course of infection. (C) As mosquito transmitted parasites are serially blood passaged an increasing number of times, they return to a higher level of parasitemia .
 
@@ -110,7 +110,7 @@ art -Dbam="MT1_sorted.bam,MT2_sorted.bam,SBP1_sorted.bam,SBP2_sorted.bam,SBP3_so
 
 Select ”Use index” so Artemis will show individual chromosomes.
 
-![](images/module5_image2.png)
+![](figures/module5_image2.png)
 
 The Artemis and BAM view windows:
 
@@ -126,7 +126,7 @@ Right click on the BAM view, select *Graph*, then *Coverage*.
 
 Right click on the BAM window showing the reads and hover over BAM files. This will show you which colours in the coverage plot relate to which samples. Scroll through the chromosome and see if you can identify genes which might be differentially expressed between SBP and MT parasites. Is looking at the coverage plots alone a reliable way to assess differential expression? Hint: what is the difference between read count and RPKM? Are the libraries all the same size?
 
-![](images/module5_image3.png)
+![](figures/module5_image3.png)
 
 Select chromosome *PccAS_14_v3* from the drop down box on the *Entry line*.
 
@@ -142,7 +142,7 @@ Artemis asks whether you want to include introns in the calculations. We are onl
 
 After the analysis is done a window will appear behind Artemis.
 
-![](images/module5_image4.png)
+![](figures/module5_image4.png)
 
 This gene looks to be up-regulated in serially blood passaged parasites; SBP samples have RPKMs several times greater than the MT samples. Is it statistically significant? In the next section we will find out.
 
@@ -194,7 +194,7 @@ In the web page which has been launched click on Summaries->processed data.
 
 Even though we have used the same number of reads for each sample, there are large differences in the number of reads mapping for each one. Why might this be? Is it a problem?
 
-![](images/module5_image5.png)
+![](figures/module5_image5.png)
 
 Select *map -> PCA* from the menus.
 
