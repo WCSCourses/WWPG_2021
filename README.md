@@ -53,7 +53,7 @@ Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
 
 3. Module 3 - Short Read Mapping
      - [Introductory presentation](presentations/) - ***TO DO***
-     - [Online manual](manuals/)
+     - [Online manual](manuals/module_shortread_mapping/module_shortread_mapping.md)
      - [Manual PDF version](manuals/) - ***TO DO***
 
 4. Module 4 - Phylogenetics
