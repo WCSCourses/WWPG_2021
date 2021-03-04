@@ -42,47 +42,47 @@ Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
 
 ## Course manual
 **Module 1 - Artemis**  
-     - [Introductory presentation](presentations/) - ***TO DO***
-     - [Online manual](manuals/module_artemis/module_artemis.md)
-     - [Manual PDF version](manuals/) - ***TO DO***
+     - [Introductory presentation](presentations/) - ***TO DO***  
+     - [Online manual](manuals/module_artemis/module_artemis.md)  
+     - [Manual PDF version](manuals/) - ***TO DO***  
   
 **Module 2 - Linux & Scripting**  
-     - [Introductory presentation](presentations/) - ***TO DO***
-     - [Online manual](manuals/module_linux_scripting/module_linux_scripting.md)
-     - [Manual PDF version](manuals/)  - ***TO DO***
+     - [Introductory presentation](presentations/) - ***TO DO***  
+     - [Online manual](manuals/module_linux_scripting/module_linux_scripting.md)  
+     - [Manual PDF version](manuals/)  - ***TO DO***  
   
 **Module 3 - Short Read Mapping**  
-     - [Introductory presentation](presentations/) - ***TO DO***
-     - [Online manual](manuals/module_shortread_mapping/module_shortread_mapping.md)
-     - [Manual PDF version](manuals/) - ***TO DO***
+     - [Introductory presentation](presentations/) - ***TO DO***  
+     - [Online manual](manuals/module_shortread_mapping/module_shortread_mapping.md)  
+     - [Manual PDF version](manuals/) - ***TO DO***  
   
 **Module 4 - Phylogenetics**  
-     - [Introductory presentation](presentations/) - ***TO DO***
-     - [Online manual](manuals/) - ***TO DO***
-     - [Manual PDF version](manuals/) - ***TO DO***
+     - [Introductory presentation](presentations/) - ***TO DO***  
+     - [Online manual](manuals/) - ***TO DO***  
+     - [Manual PDF version](manuals/) - ***TO DO***  
   
 **Module 5 - Genome Assembly**  
-     - [Introductory presentation](presentations/) - ***TO DO***
-     - [Online manual](manuals/module_denovo_assembly/module_denovo_assembly.md)
-     - [Manual PDF version](manuals/) - ***TO DO***
+     - [Introductory presentation](presentations/) - ***TO DO***  
+     - [Online manual](manuals/module_denovo_assembly/module_denovo_assembly.md)  
+     - [Manual PDF version](manuals/) - ***TO DO***  
   
-**Module 6 - Transcriptomics**   - ***TO DO***
-     - [Introductory presentation](presentations/) - ***TO DO***
-     - [Online manual](manuals/) - ***TO DO***
-     - [Manual PDF version](manuals/) - ***TO DO***
+**Module 6 - Transcriptomics**   - ***TO DO***  
+     - [Introductory presentation](presentations/) - ***TO DO***  
+     - [Online manual](manuals/module_transcriptomics/module_transcriptomics.md) - ***TO DO***  
+     - [Manual PDF version](manuals/) - ***TO DO***  
   
 **Eukaryotic exercise**  
-     - [Introductory presentation](presentations/) - ***TO DO***
-     - [Online manual](manuals/exercise_RNAseq/exercise_RNAseq.md)
-     - [Manual PDF version](manuals/) - ***TO DO***
+     - [Introductory presentation](presentations/) - ***TO DO***  
+     - [Online manual](manuals/exercise_RNAseq/exercise_RNAseq.md)  
+     - [Manual PDF version](manuals/) - ***TO DO***  
   
 **Bacterial exercise**  
-     - [Introductory presentation](presentations/) - ***TO DO***
-     - [Online manual](manuals/) - ***TO DO***
-     - [Manual PDF version](manuals/) - ***TO DO***
+     - [Introductory presentation](presentations/) - ***TO DO***  
+     - [Online manual](manuals/) - ***TO DO***  
+     - [Manual PDF version](manuals/) - ***TO DO***  
   
 **Appendix**  
-     - [Manual PDF version](manuals/) - ***TO DO***
+     - [Manual PDF version](manuals/) - ***TO DO***  
 
 
 
