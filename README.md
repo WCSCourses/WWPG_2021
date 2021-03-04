@@ -43,7 +43,7 @@ Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
 ## Course manual
 1. Module 1 - Artemis
      - [Introductory presentation](presentations/)
-     - [Online manual](manuals/)
+     - [Online manual](manuals/module_artemis/module_artemis.md)
      - [Manual PDF version](manuals/)
 
 2. Module 2 - Linux & Scripting
