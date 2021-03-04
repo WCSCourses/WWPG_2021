@@ -11,7 +11,6 @@
 7. [Extended reading](#reading)
 
 
-**Instructors**: [Adam Reid](mailto:ar11@sanger.ac.uk) & [Stephen Doyle](mailto:sd21@sanger.ac.uk), Wellcome Sanger Institute
 
 
 
