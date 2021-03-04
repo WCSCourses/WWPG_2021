@@ -18,7 +18,7 @@ Our colleagues have proposed that we explore the function of this transcription 
 
 Sequencing reads as well as the reference sequence are available in the data directory Module_6_RNAseq2 (please use this rather than download one). There are also files of genome annotation, product descriptions, GO terms and an R script for performing GO term enrichment. A full explanation is found in a README file in the directory.
 
-![](images/module6_image1.png)
+![](figures/module6_image1.png)
 
 **Figure 1. Malaria life cycle.** The parasites must produce sexual forms called gametocytes in order to be transmitted from the intermediate mammalian host to the definitive mosquito host.
 
