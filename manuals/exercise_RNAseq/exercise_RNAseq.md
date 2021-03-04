@@ -1,8 +1,6 @@
 # Module 6 - RNA-seq 2
 
 
-**Instructors**: [Adam Reid](mailto:ar11@sanger.ac.uk) & [Stephen Doyle](mailto:sd21@sanger.ac.uk), Wellcome Sanger Institute
-
 
 ## Table of contents
 1. [Introduction & Aims](#introduction)
