@@ -32,7 +32,7 @@ Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
   - Bacterial exercise   
 
 ### Detailed timetable
-[Download here](manuals/)
+[Download here](manuals/) - ***TO DO***
 
 
 
@@ -42,47 +42,47 @@ Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
 
 ## Course manual
 1. Module 1 - Artemis
-     - [Introductory presentation](presentations/)
+     - [Introductory presentation](presentations/) - ***TO DO***
      - [Online manual](manuals/module_artemis/module_artemis.md)
-     - [Manual PDF version](manuals/)
+     - [Manual PDF version](manuals/) - ***TO DO***
 
 2. Module 2 - Linux & Scripting
-     - [Introductory presentation](presentations/)
+     - [Introductory presentation](presentations/) - ***TO DO***
      - [Online manual](manuals/module_linux_scripting/module_linux_scripting.md)
-     - [Manual PDF version](manuals/) 
+     - [Manual PDF version](manuals/)  - ***TO DO***
 
 3. Module 3 - Short Read Mapping
-     - [Introductory presentation](presentations/)
-     - [Online manual](manuals/)
-     - [Manual PDF version](manuals/)
+     - [Introductory presentation](presentations/) - ***TO DO***
+     - [Online manual](manuals/) - ***TO DO***
+     - [Manual PDF version](manuals/) - ***TO DO***
 
 4. Module 4 - Phylogenetics
-     - [Introductory presentation](presentations/)
-     - [Online manual](manuals/)
-     - [Manual PDF version](manuals/)
+     - [Introductory presentation](presentations/) - ***TO DO***
+     - [Online manual](manuals/) - ***TO DO***
+     - [Manual PDF version](manuals/) - ***TO DO***
 
 5. Module 5 - Genome Assembly
-     - [Introductory presentation](presentations/)
-     - [Online manual](manuals/module_denovo_assembly/module_denovo_assembly.md)
-     - [Manual PDF version](manuals/)
+     - [Introductory presentation](presentations/) - ***TO DO***
+     - [Online manual](manuals/module_denovo_assembly/module_denovo_assembly.md) - ***TO DO***
+     - [Manual PDF version](manuals/) - ***TO DO***
 
-6. Module 6 - Transcriptomics
-     - [Introductory presentation](presentations/)
-     - [Online manual](manuals/)
-     - [Manual PDF version](manuals/)
+6. Module 6 - Transcriptomics - ***TO DO***
+     - [Introductory presentation](presentations/) - ***TO DO***
+     - [Online manual](manuals/) - ***TO DO***
+     - [Manual PDF version](manuals/) - ***TO DO***
 
 7. Eukaryotic exercise
-     - [Introductory presentation](presentations/)
-     - [Online manual](manuals/)
-     - [Manual PDF version](manuals/)
+     - [Introductory presentation](presentations/) - ***TO DO***
+     - [Online manual](manuals/) - ***TO DO***
+     - [Manual PDF version](manuals/) - ***TO DO***
 
 8. Bacterial exercise
-     - [Introductory presentation](presentations/)
-     - [Online manual](manuals/)
-     - [Manual PDF version](manuals/)
+     - [Introductory presentation](presentations/) - ***TO DO***
+     - [Online manual](manuals/) - ***TO DO***
+     - [Manual PDF version](manuals/) - ***TO DO***
 
 9. Appendix
-     - [Manual PDF version](manuals/)
+     - [Manual PDF version](manuals/) - ***TO DO***
 
 
 
