@@ -48,8 +48,7 @@ Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
 
 2. Module 2 - Linux & Scripting
      - [Introductory presentation](presentations/)
-     - [Online manual](module_linux_scripting.md)
-     - manuals/module_linux_scripting/
+     - [Online manual](manuals/module_linux_scripting/module_linux_scripting.md)
      - [Manual PDF version](manuals/) 
 
 3. Module 3 - Short Read Mapping
