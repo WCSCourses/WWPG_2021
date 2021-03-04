@@ -63,7 +63,7 @@ Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
 
 5. Module 5 - Genome Assembly
      - [Introductory presentation](presentations/) - ***TO DO***
-     - [Online manual](manuals/module_denovo_assembly/module_denovo_assembly.md) - ***TO DO***
+     - [Online manual](manuals/module_denovo_assembly/module_denovo_assembly.md)
      - [Manual PDF version](manuals/) - ***TO DO***
 
 6. Module 6 - Transcriptomics - ***TO DO***
