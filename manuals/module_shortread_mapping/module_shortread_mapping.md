@@ -1,6 +1,5 @@
-# Module 2 - Mapping Short Reads
+# Mapping Short Reads
 
-**Instructors**: [Adam Reid](mailto:ar11@sanger.ac.uk) & [Stephen Doyle](mailto:sd21@sanger.ac.uk), Wellcome Sanger Institute
 
 ## Table of contents
 1. [Introduction & Aims](#introduction)
