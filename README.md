@@ -41,47 +41,47 @@ Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
 
 
 ## Course manual
-**1. Module 1 - Artemis**  
+**Module 1 - Artemis**  
      - [Introductory presentation](presentations/) - ***TO DO***
      - [Online manual](manuals/module_artemis/module_artemis.md)
      - [Manual PDF version](manuals/) - ***TO DO***
   
-**2. Module 2 - Linux & Scripting**  
+**Module 2 - Linux & Scripting**  
      - [Introductory presentation](presentations/) - ***TO DO***
      - [Online manual](manuals/module_linux_scripting/module_linux_scripting.md)
      - [Manual PDF version](manuals/)  - ***TO DO***
   
-**3. Module 3 - Short Read Mapping**  
+**Module 3 - Short Read Mapping**  
      - [Introductory presentation](presentations/) - ***TO DO***
      - [Online manual](manuals/module_shortread_mapping/module_shortread_mapping.md)
      - [Manual PDF version](manuals/) - ***TO DO***
   
-**4. Module 4 - Phylogenetics**  
+**Module 4 - Phylogenetics**  
      - [Introductory presentation](presentations/) - ***TO DO***
      - [Online manual](manuals/) - ***TO DO***
      - [Manual PDF version](manuals/) - ***TO DO***
   
-**5. Module 5 - Genome Assembly**  
+**Module 5 - Genome Assembly**  
      - [Introductory presentation](presentations/) - ***TO DO***
      - [Online manual](manuals/module_denovo_assembly/module_denovo_assembly.md)
      - [Manual PDF version](manuals/) - ***TO DO***
   
-**6. Module 6 - Transcriptomics**   - ***TO DO***
+**Module 6 - Transcriptomics**   - ***TO DO***
      - [Introductory presentation](presentations/) - ***TO DO***
      - [Online manual](manuals/) - ***TO DO***
      - [Manual PDF version](manuals/) - ***TO DO***
   
-**7. Eukaryotic exercise**  
+**Eukaryotic exercise**  
      - [Introductory presentation](presentations/) - ***TO DO***
      - [Online manual](manuals/exercise_RNAseq/exercise_RNAseq.md)
      - [Manual PDF version](manuals/) - ***TO DO***
   
-**8. Bacterial exercise**  
+**Bacterial exercise**  
      - [Introductory presentation](presentations/) - ***TO DO***
      - [Online manual](manuals/) - ***TO DO***
      - [Manual PDF version](manuals/) - ***TO DO***
   
-**9. Appendix**  
+**Appendix**  
      - [Manual PDF version](manuals/) - ***TO DO***
 
 
