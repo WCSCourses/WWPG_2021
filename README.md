@@ -66,9 +66,9 @@ Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
      - [Online manual](manuals/module_denovo_assembly/module_denovo_assembly.md)  
      - [Manual PDF version](manuals/) - ***TO DO***  
   
-**Module 6 - Transcriptomics**   - ***TO DO***  
+**Module 6 - Transcriptomics**  
      - [Introductory presentation](presentations/) - ***TO DO***  
-     - [Online manual](manuals/module_transcriptomics/module_transcriptomics.md) - ***TO DO***  
+     - [Online manual](manuals/module_transcriptomics/module_transcriptomics.md)  
      - [Manual PDF version](manuals/) - ***TO DO***  
   
 **Eukaryotic exercise**  
