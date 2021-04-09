@@ -1,6 +1,4 @@
-# Module 6 - RNA-seq 2
-
-
+# Task 1 - Sexual development of malaria parasites
 
 ## Table of contents
 1. [Introduction & Aims](#introduction)
@@ -16,7 +14,7 @@ Our colleagues grew several cultures of a transmissible strain in the lab contin
 
 Our colleagues have proposed that we explore the function of this transcription factor by looking at changes in gene expression after it has been knocked-out. One of their team managed to knock it out, grow the mutant up, extract and sequence its RNA. This means we are able to examine the role of the gene and how it affects the transcriptional landscape of the parasite. Which transcripts are affected by the knockout of this gene? Does this make sense in terms of what we expect to happen? What could this gene list be useful for in future?
 
-Sequencing reads as well as the reference sequence are available in the data directory Module_6_RNAseq2 (please use this rather than download one). There are also files of genome annotation, product descriptions, GO terms and an R script for performing GO term enrichment. A full explanation is found in a README file in the directory.
+Sequencing reads as well as the reference sequence are available in the data directory Task_1_SexualDevelopment (please use this rather than download one). There are also files of genome annotation, product descriptions, GO terms and an R script for performing GO term enrichment. A full explanation is found in a README file in the directory.
 
 ![](figures/module6_image1.png)
 
