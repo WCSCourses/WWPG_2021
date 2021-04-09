@@ -62,9 +62,9 @@ Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
      - [Manual PDF version](manuals/) - ***TO DO***  
   
 **Module 6 - Transcriptomics**  
-     - [Introductory presentation](presentations/WWPG_VietnamVirtual_Talk_Module6_transcriptomics.pdf) 
-     - [Online manual](manuals/module_transcriptomics/module_transcriptomics.md) 
-     - [Manual PDF version](manuals/) - ***TO DO***  
+     - [Introductory presentation](presentations/WWPG_VietnamVirtual_Talk_Module6_transcriptomics.pdf)  
+     - [Online manual](manuals/module_transcriptomics/module_transcriptomics.md)  
+     - [Manual PDF version](manuals/) - ***TO DO***   
   
 **Task 1 - Sexual development in malaria parasites**  
      - [Online manual](manuals/exercise_RNAseq/exercise_RNAseq.md)  
