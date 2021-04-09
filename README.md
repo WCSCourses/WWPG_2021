@@ -76,7 +76,7 @@ Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
      - [Manual PDF version](manuals/) - ***TO DO***  
   
 **Appendix**  
-     - [Manual PDF version](manuals/) - ***TO DO***  
+     - [Manual PDF version](manuals/WWPG_VietnamVirtual_Appendix.pdf)  
 
 
 
