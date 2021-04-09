@@ -1,4 +1,4 @@
-# Module 5 - Transcriptomics
+# Module 6 - Transcriptomics
 
 
 ## Table of contents
@@ -44,7 +44,7 @@ Firstly, make a HISAT2 index for the P. chabaudi genome reference sequence.
 ```shell
 # got to the working directory
 
-cd /home/manager/Module_5_RNAseq1/
+cd /home/manager/Module_6_Transcriptomics/
 
 # type the following into the terminal
 
