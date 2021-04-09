@@ -35,11 +35,6 @@ Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
 [Download here](manuals/) - ***TO DO***
 
 
-
-
-
-
-
 ## Course manual
 **Module 1 - Artemis**  
      - [Introductory presentation](presentations/) - ***TO DO***  
@@ -71,12 +66,12 @@ Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
      - [Online manual](manuals/module_transcriptomics/module_transcriptomics.md)  
      - [Manual PDF version](manuals/) - ***TO DO***  
   
-**Eukaryotic exercise**  
+**Task 1 - Sexual development in malaria parasites**  
      - [Introductory presentation](presentations/) - ***TO DO***  
      - [Online manual](manuals/exercise_RNAseq/exercise_RNAseq.md)  
      - [Manual PDF version](manuals/) - ***TO DO***  
   
-**Bacterial exercise**  
+**Task 2 - Phylogenomics of Shigella**  
      - [Introductory presentation](presentations/) - ***TO DO***  
      - [Online manual](manuals/) - ***TO DO***  
      - [Manual PDF version](manuals/) - ***TO DO***  
