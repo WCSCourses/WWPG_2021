@@ -101,7 +101,7 @@ Kraken works by aligning kmers from your DNA sequence against known kmer frequen
 ```bash
 # go to the working directory
 
-cd /home/manager/Module_4_Assembly/step_1  
+cd /home/manager/Module_5_helminth_denovo_assembly/step_1  
 
 # unzip your fastq read files
 
@@ -125,9 +125,9 @@ firefox multiqc_report.html
 
 # Once you have finished exploring FastQC/MultiQC, open the kraken report to determine the proportion of the read data that is “unclassified”.
 
-head -n 100 kraken.report
+head -n 25 kraken.report
 
-#--- "head" is used to look at the top of the file, and "-n 100" selects the top 100 lines. You want to look at the very top of this output.
+#--- "head" is used to look at the top of the file, and "-n 25" selects the top 25 lines. You want to look at the very top of this output.
 ```
 
 ### The kraken report
@@ -182,7 +182,7 @@ You can explore some examples of kmer spectra and genome size estimates on the G
 ```bash
 # go to the working directory
 
-cd /home/manager/Module_4_Assembly/step_2  
+cd /home/manager/Module_5_helminth_denovo_assembly/step_2  
 
 
 # run Jellyfish commands. The first step will take a few minutes
@@ -236,26 +236,27 @@ The process of error correction does take a substantial amount of time and compu
 
 
 ### Tasks
-
-1. Run the Miniasm command to generate your first Pacbio assembly of Chromosome IV
-2. The Canu and Spades assemblies have been provided for you
-     – it would take too long to run these here – however, we have provided the commands for your reference
+1. NORMALLY, we would get you to perfrom an assembly using MINIASM. However, it is somewhat time and memory intensive, and given we are all working from our home computers etc, we will skip this step.
+	- We have kept the block of code below so you can see how it is done, however, you do not need to run this code.
+2. We will still determine the assembly statistics of each genome assembly
+	- The Miniasm, Canu and Spades assemblies have been provided for you
+    	– it would take too long to run these here – however, we have provided the commands for your reference
 3. Determine the assembly statistics of each genome assembly
 
 ```bash
 # go to the working directory
 
-cd /home/manager/Module_4_Assembly/step_3  
+# cd /home/manager/Module_4_Assembly/step_3  
 
 
 # run the Miniasm assembly
 
-minimap2 -x ava-pb –t6 SM_V7_chr4_subreads.fa.gz SM_V7_chr4_subreads.fa.gz > SM_V7_chr4.minimap.paf
+# minimap2 -x ava-pb –t6 SM_V7_chr4_subreads.fa.gz SM_V7_chr4_subreads.fa.gz > SM_V7_chr4.minimap.paf
 # - this first step will take some time.
 
-miniasm -f SM_V7_chr4_subreads.fa.gz SM_V7_chr4.minimap.paf > SM_V7_chr4.miniasm.gfa
+# miniasm -f SM_V7_chr4_subreads.fa.gz SM_V7_chr4.minimap.paf > SM_V7_chr4.miniasm.gfa
 
-cat SM_V7_chr4.miniasm.gfa | awk '$1=="S" { print ">"$2"\n"$3}'  > MINIASM_SM_V7_chr4.contigs.fasta
+# cat SM_V7_chr4.miniasm.gfa | awk '$1=="S" { print ">"$2"\n"$3}'  > MINIASM_SM_V7_chr4.contigs.fasta
 
 #--- run time: step1 ~ 20 mins, 20 Gb RAM, 6 threads, steps2 and 3 are quick (< 1 min)
 
@@ -322,7 +323,7 @@ There are a number of ways to compare genomes. We will be using nucmer to do the
 ```bash
 # go to the working directory
 
-cd /home/manager/Module_4_Assembly/step_4  
+cd /home/manager/Module_5_helminth_denovo_assembly/step_4  
 
 
 # run nucmer to generate the comparison between the reference and each genome assembly. We have provided one example, but we would like you to run all three assemblies against the reference.
@@ -392,7 +393,7 @@ We will use the tool Bandage (https://rrwick.github.io/Bandage/) to visualise th
 ```bash
 # go to the working directory
 
-cd /home/manager/Module_4_Assembly/step_5  
+cd /home/manager/Module_5_helminth_denovo_assembly/step_5  
 
 
 # load Pacbio miniasm genome graph into Bandage. This file was made during the miniasm assembly
@@ -441,7 +442,7 @@ Lets perform a basic improvement to our Pacbio miniasm assembly, by trying to us
 ```bash
 # make sure you are still in the correct working directory
 
-cd /home/manager/Module_4_Assembly/step_5  
+cd /home/manager/Module_5_helminth_denovo_assembly/step_5  
 
 Bandage load SM_V7_chr4.miniasm.gfa
 ```
