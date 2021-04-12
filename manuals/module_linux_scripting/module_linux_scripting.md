@@ -371,8 +371,6 @@ $ ls -lrt
 
 ## Looking inside files <a name="inside_files"></a>
 - A common task is to look at the contents of a file. This can be achieved using several different Unix commands, less, head and tail. Let us consider some examples.
-- But first, change directory into the Module_2_Linux_Scripting/files/ directory (hint: you might need to go up a few directories first using cd ../..).
-     - Make sure to check where you are using the “pwd” command.
 
 
 ### less
@@ -538,6 +536,7 @@ $ ls | grep ".gff" | wc -l
 ### sort - sorting values
 - The *sort* command lets you sort the contents of the input.
 - When you sort the input, lines with identical content end up next to each other in the output. This is useful as the output can then be fed to the *uniq* command (see below) to count the number of unique lines in the input.
+- First, navigate your way to the "genome_2" directory.
 
 ```bash
 # For example, to sort the contents of a BED file use:
@@ -602,7 +601,7 @@ $ awk '{ print $1 }' genome_2.bed | sort | uniq | less
 
 ```bash
 # First we need to go to the correct directory
-$ cd /home/manager/Linux_Scripting/grep
+$ cd /home/manager/Module_2_Linux_Scripting/grep
 
 ```
 
@@ -656,7 +655,7 @@ $ cat gene_expression_sneaky.bed
 
 ```bash
 # See what happens when we grep for genes on chromosome 1, on the negative strand. (Note, we put the minus sign in quotes to stop Unix interpreting this as an option in grep
-$ grep chr1 gene_expression_sneaky.bed | grep “-”
+$ grep chr1 gene_expression_sneaky.bed | grep "-"
 
 ```
 - You will notice that *grep* reports several lines form genes which aren’t on chromosome 1.  
@@ -674,7 +673,7 @@ $ grep chr1 gene_expression_sneaky.bed | grep “-”
 
 ```bash
 # Repeat the first part of our search but including ^. Note, to be safe, we will put the search term in quotes.
-$ grep ‘^chr1’ gene_expression_sneaky.bed
+$ grep '^chr1' gene_expression_sneaky.bed
 
 ```
 - We can now refine our search further to avoid the remaining genes not on chromosome 1.
@@ -682,7 +681,7 @@ $ grep ‘^chr1’ gene_expression_sneaky.bed
 ```bash
 # This can be done by searching for a tab character following the chromosome name. Tab is represented by ‘\t’. For reasons beyond the scope of this course,we must start the search term with a dollar symbol to recognise tab.
 
-$ grep $‘^chr1\t’ gene_expression_sneaky.bed
+$ grep $'^chr1\t' gene_expression_sneaky.bed
 
 ```
 - As expected, there are now three genes left, all on chromosome 1.
@@ -690,7 +689,7 @@ $ grep $‘^chr1\t’ gene_expression_sneaky.bed
 
 ```bash
 # Searching for a string at the end of the line is done using a $ symbol at the end of the search term. In this case, we will backslash the - symbol for safety.
-$ grep $‘^chr1\t’ gene_expression_sneaky.bed | grep ‘\-$’
+$ grep $'^chr1\t' gene_expression_sneaky.bed | grep '\-$'
 
 ```
 - We now have only one gene reported and it is on chromosome 1 and on the negative strand.
@@ -706,7 +705,7 @@ $ grep $‘^chr1\t’ gene_expression_sneaky.bed | grep ‘\-$’
 
 ```bash
 # We will repeat a previous search but include the -c option to count matches rather than just returning them.
-$ grep -c  $‘^chr1\t’ gene_expression_sneaky.bed
+$ grep -c  $'^chr1\t' gene_expression_sneaky.bed
 
 ```
 - Another common requirement is to make searches case insensitive. By default, *grep* is case sensitive so grepping for ‘acgt’ will not return hits to ‘ACGT’.
@@ -729,7 +728,7 @@ $ grep -i ACGT sequences.fasta
 
 ```bash
 # The -v option does this
-$ grep -v $‘^chr1\t’ gene_expression_sneaky.bed
+$ grep -v $'^chr1\t' gene_expression_sneaky.bed
 
 ```
 
@@ -742,14 +741,14 @@ $ grep -v $‘^chr1\t’ gene_expression_sneaky.bed
 
 ```bash
 # As an example, we wish to replace each incidence of the characters ‘chr’ at the beginning of the line in gene_expression.bed with ‘chromosome
-$ sed ‘s/^chr/chromosome/’ gene_expression.bed
+$ sed 's/^chr/chromosome/' gene_expression.bed
 
 ```
 - Note: this will output to the terminal window. The output can be redirected to a new file using the *">"* character.
 
 ```bash
 # For example:
-$ sed ‘s/^chr/chromosome/’ gene_expression.bed > gene_expression_new.bed
+$ sed '/^chr/chromosome/' gene_expression.bed > gene_expression_new.bed
 
 ```
 
@@ -767,7 +766,7 @@ $ sed ‘s/^chr/chromosome/’ gene_expression.bed > gene_expression_new.bed
 - Before we begin we need to change directory to the correct location.
 
 ```bash
-$ cd ~/Module2_Linux_scripting/awk/
+$ cd ~/Module_2_Linux_Scripting/awk/
 
 ```
 - *awk* reads a file line by line, splitting each line into columns.
@@ -796,7 +795,7 @@ $ cat genes.gff
 
 ```bash
 # We can ask awk just to give us the first column of a file. awk calls the columns $1, $2 etc. with $0 representing the full line.
-$ awk -F”\t” ‘{print $1}’ genes.gff
+$ awk -F"\t" '{print $1}' genes.gff
 
 ```
 - A little explanation is required:
@@ -870,7 +869,7 @@ $ awk ‘!/repeat/’ genes.gff
 
 ```bash
 # One thing we may want to do is check that each gene has been assigned a strand. To do this, we need to check whether column 7 contains either a + or - symbol.
-$ awk -F”\t” '$3=="gene" && !($7 == "+" || $7 == "-")' genes.gff
+$ awk -F"\t" '$3=="gene" && !($7 == "+" || $7 == "-")' genes.gff
 
 ```
 - Likewise, we may want to check whether the coordinates of all features make sense.
