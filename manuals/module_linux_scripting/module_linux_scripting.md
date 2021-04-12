@@ -1068,7 +1068,7 @@ $ chmod +x myscript.sh
 
 ```bash
 # We can view this example using the cat commend we’ve seen earlier
-$ cd ~/Module2_Linux_scripting/bash_scripts/scripts
+$ cd ~/Module_2_Linux_scripting/bash_scripts/scripts
 $ cat options_example.sh
 
 ```
@@ -1094,7 +1094,7 @@ $ cat options_example2.sh
 
 ### Exercises
 1. Write a script which takes a file name from the user, if the file exists, print a human readable message telling the user how many lines the file has.
-2. Navigate to the base Module2_Linux_scripting directory. Use a loop to run the script written in exercise 1 on the files in the loop_files subdirectory.
+2. Navigate to the base Module_2_Linux_scripting directory. Use a loop to run the script written in exercise 1 on the files in the loop_files subdirectory.
 3. Write a script that takes a GFF filename as input. Make the script produce a summary of various properties of the file.
      - An example input file is provided called bash_scripts/exercise_3.gff.
      - Use your imagination as to what you want to summarise.
