@@ -124,7 +124,7 @@ and provide examples of how they can be used in bioinformatics analyses.
 ```bash
 # your first command – move to the working directory to get started!
 
-cd /home/manager/Module2_Linux_Scripting
+cd /home/manager/Module_2_Linux_Scripting
 
 ```
 
