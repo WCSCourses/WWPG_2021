@@ -100,7 +100,7 @@ Index the fasta file so Artemis can view each chromosome separately
 samtools faidx PccAS_v3_genome.fa
 ```
 
-Load chromosome 14 into Artemis from the command line, displaying the mapped reads from each sample:
+Load the genome sequence and annotation into Artemis from the command line, displaying the mapped reads from each sample:
 
 ```shell
 # type the following into the terminal
