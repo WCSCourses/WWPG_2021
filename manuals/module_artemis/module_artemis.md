@@ -1,4 +1,4 @@
-# Module 1 - Artemis
+# Artemis
 
 
 ## Table of contents
