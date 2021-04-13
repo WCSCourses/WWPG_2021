@@ -169,7 +169,7 @@ kallisto quant -i PccAS_v3_kallisto -o MT1 -b 100 MT1_1.fastq.gz MT1_2.fastq.gz
 
 The results are contained in the file *MT1/abundance.tsv*
 
-Use the kallisto quant command four more times, for the MT2 sample and the three SBP samples. **Don't foget this step!!!**
+Use the kallisto quant command four more times, for the MT2 sample and the three SBP samples. **Don't forget this step!!!**
 
 *Sleuth* uses the output from Kallisto to determine differentially expressed genes. It is written in the R statistical programming language, as is almost all RNA-seq analysis software. Helpfully however it produces a web page that allows interactive graphical analysis of the data. However, I would recommend learning R for anyone doing a significant amount of RNA-seq analysis.  It is nowhere near as hard to get started with as full-blown programming languages such as Perl or Python!
 
