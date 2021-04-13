@@ -1,4 +1,4 @@
-# Module - Linux Scripting
+# Linux Scripting
 
 
 ## Table of Contents
