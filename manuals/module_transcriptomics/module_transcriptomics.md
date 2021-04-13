@@ -1,4 +1,4 @@
-# Module 6 - Transcriptomics
+# Transcriptomics
 
 
 ## Table of contents
