@@ -31,12 +31,12 @@ that may be used for typing *Chlamydia trachomatis*.
 
 The exercise will begin by using assembled sequences. Historically this is the type of data
 that would have been available for molecular phylogenetic analyses. We will look at the
-ompA gene, the most commonly used Chlamydia typing locus.
+*ompA* gene, the most commonly used Chlamydia typing locus.
 
 In the second part of the exercise, we will see how Artemis can be used to create sequence
-alignments from the C. trachomatis bcf files used in the mapping module. We will extract
+alignments from the *C. trachomatis* bcf files used in the mapping module. We will extract
 the sequences of genes used in a Chlamydia multilocus-typing scheme and compare the
-results with those from the ompA analysis.
+results with those from the *ompA* analysis.
 
 Finally we will create a tree based on whole-genome SNP data and see which of the other
 two typing schemes it supports.
@@ -53,20 +53,18 @@ By the end of this module you should have some understanding of:
 
 
 ## Exercise 1: *ompA* phylogeny from gene sequences <a name="exercise1"></a>
-For our first phylogeny we will make a tree using the sequences of the ompA gene from 16
-strains of C. trachomatis. These sequences are provided for you in a single file called
-ompA_assembled.mfa in the Module 5 directory.  
+For our first phylogeny we will make a tree using the sequences of the *ompA* gene from 16
+strains of *C. trachomatis*. These sequences are provided for you in a single file called
+ompA_assembled.mfa in the Module 4 directory.  
 
-Historically, the most commonly used tool for typing C. trachomatis isolates was
+Historically, the most commonly used tool for typing *C. trachomatis* isolates was
 serotyping using the MOMP (major outer membrane protein), which is encoded by the
-ompA gene. There are two biovars of C. trachomatis: 1) the trachoma biovar includes
+*ompA* gene. There are two biovars of *C. trachomatis*: 1) the trachoma biovar includes
 ocular and urogenital strains, which cause the majority of trachoma and STIs, and are
 characterised by localised infections of the epithelial surface of the conjunctiva or genital
 mucosa; 2) the lymphogranuloma venereum (LGV) biovar includes strains which are
 distinguished by their ability to spread systemically thorough the lymphatic system,
-causing genital ulceration and bubonic disease. Based on MOMP serotyping, C.
-trachomatis has been subdivided into between 15 and 19 serotypes: the trachoma biovar
-includes ocular serotypes A to C and urogenital serotypes D to K, while the LGV biovar
+causing genital ulceration and bubonic disease. Based on MOMP serotyping, *C.trachomatis* has been subdivided into between 15 and 19 serotypes: the trachoma biovar includes ocular serotypes A to C and urogenital serotypes D to K, while the LGV biovar
 includes serotypes L1, L2 (including L2a, b and c) and L3.
 
 ### Viewing the alignment in Seaview
@@ -79,7 +77,8 @@ phylogenies. However, the primary aim of this module is to demonstrate the princ
 alignment and phylogenetic reconstruction that apply to any of the wide range of programs
 that you may encounter.
 
-First you should navigate to Module 5 directory.
+First you should navigate to Module 4 directory.
+
 ```bash
 # change to the working directory
 cd Module_4_Phylogenetics
@@ -91,11 +90,11 @@ seaview
 ```
 ![](figures/01_seaview.PNG)
 
-If you have time, have a look at the mapping of the ompA gene in some of your samples. The diverse nature of the ompA region, with high SNP density and a number of indels, makes mapping of the region difficult and variant-calling from mapped data prone to errors. It is for this reason that we have provided assembled versions of the gene for this part of the module. The methods used to produce these assemblies were exactly as you will see in the assembly module later in the course.
+If you have time, have a look at the mapping of the *ompA* gene in some of your samples. The diverse nature of the *ompA* region, with high SNP density and a number of indels, makes mapping of the region difficult and variant-calling from mapped data prone to errors. It is for this reason that we have provided assembled versions of the gene for this part of the module. The methods used to produce these assemblies were exactly as you will see in the assembly module later in the course.
 
 
 ### Multiple sequence alignment
-Before any phylogenetic analysis, we must make sure that the columns in our data represent homologous bases.  With gene or protein sequence data, this usually means aligning the nucleotide or amino acid sequences using a multiple alignment program. In this part of the exercise you will align the ompA sequences.  Length differences complicate multiple sequence alignment because these require the insertion of gaps into an alignment to ensure that homologous sites remain aligned.  Alignment should be checked by eye wherever possible, because no program is perfect; but for large numbers of sequences and sites, de novo manual alignment is impractical and we must rely on the algorithms of sequence alignment tools.
+Before any phylogenetic analysis, we must make sure that the columns in our data represent homologous bases.  With gene or protein sequence data, this usually means aligning the nucleotide or amino acid sequences using a multiple alignment program. In this part of the exercise you will align the *ompA* sequences.  Length differences complicate multiple sequence alignment because these require the insertion of gaps into an alignment to ensure that homologous sites remain aligned.  Alignment should be checked by eye wherever possible, because no program is perfect; but for large numbers of sequences and sites, de novo manual alignment is impractical and we must rely on the algorithms of sequence alignment tools.
 
 Seaview allows alignment using two programs, clustal and muscle. Generally muscle is faster, and the protein alignments are of similar quality to clustal. In both cases, sequences are aligned by assigning costs to particular base changes and gap insertions and then minimising the overall cost of the alignment. The parameters can be altered to optimise the process, but in practice the default options will usually suffice.
 It is usually better to align genes after translating them into amino acids, so we will do that here.
@@ -184,7 +183,7 @@ Imagine putting each site into a bag. Replicate data sets are created by randoml
 
 Trees are then built for each replicate data set.  Robust relationships, i.e. those that are repeatable, will occur in a large proportion of randomised data sets.
 
-Estimate a bootstrapped phylogeny for the ompA data set by creating a new phylogeny as before, with the addition of 10 bootstrap replicates.  Click on ‘Bootstrap’ in the ‘Branch Support’ box, and enter ‘10’ in the replicates box. Processing of the 10 replicates may take a few minutes, so you could move on while this is running. In practice you would want to run more replicates (100 or 1000), but we are only using 10 for speed.
+Estimate a bootstrapped phylogeny for the *ompA* data set by creating a new phylogeny as before, with the addition of 10 bootstrap replicates.  Click on ‘Bootstrap’ in the ‘Branch Support’ box, and enter ‘10’ in the replicates box. Processing of the 10 replicates may take a few minutes, so you could move on while this is running. In practice you would want to run more replicates (100 or 1000), but we are only using 10 for speed.
 
 ![](figures/10_seaview.PNG)
 
@@ -199,7 +198,7 @@ Each node in the tree now has an associated value out of 100, its bootstrap.  Ca
 
 Questions:
 - From the trees that you have produced, which MOMP type would you suggest the new variant (NV) strain belongs to?
-- Do the ompA trees agree with the separation of C. trachomatis into trachoma (serotypes A to K) and LGV (L serotypes) biovars?
+- Do the *ompA* trees agree with the separation of *C. trachomatis* into trachoma (serotypes A to K) and LGV (L serotypes) biovars?
 
 ---
 [↥ **Back to top**](#top)
@@ -208,7 +207,7 @@ Questions:
 ## Exercise 2: MLST gene phylogeny using Artemis <a name="exercise2"></a>
 A second typing method used for many bacterial species is multilocus sequence typing (MLST). MLST involves the sequencing of fragments of a number (usually 6 or 7) of housekeeping genes spread around the genome. In true MLST, each different allele for each locus is assigned a number. Each unique allelic profile defines a sequence type (ST).
 
-A number of MLST schemes have been devised for C. trachomatis, but we will use the scheme of Dean et al. (Emerg Infect Dis. 2009 Sep;15(9):1385-94.), which comprises the following seven loci.
+A number of MLST schemes have been devised for *C. trachomatis*, but we will use the scheme of Dean et al. (Emerg Infect Dis. 2009 Sep;15(9):1385-94.), which comprises the following seven loci.
 
 ![](figures/12_mlst.PNG)
 
@@ -256,7 +255,7 @@ If you have multiple bcf files open, a fourth option will appear.
 
 We have only output the MLST gene sequences for one Chlamydia isolate. If we had opened more than one bcf file in Artemis, we could have output the sequences for all of those isolates in one go to create an alignment of MLST gene sequences. However, running Artemis with many bcf files open can be slow, especially on the USB stick. An alternative is to output the sequence for each strain into a separate file in exactly the same way as we have for NV. You can then concatenate the separate files into one alignment file using the ‘cat’ command. Remember, though that the reference will be included in each file created in Artemis.
 
-For speed we have provided you with an alignment of the MLST genes from the 15 other C. trachomatis isolates you included in the ompA tree. These were produced in exactly the same way as the NV_MLST.fasta file you just created. We will use cat to add the reference and NV sequences and make a file containing all 17 isolates by typing:
+For speed we have provided you with an alignment of the MLST genes from the 15 other *C. trachomatis* isolates you included in the *ompA* tree. These were produced in exactly the same way as the NV_MLST.fasta file you just created. We will use cat to add the reference and NV sequences and make a file containing all 17 isolates by typing:
 
 ```bash
 cat Others_MLST.fasta NV_MLST.fasta > Ct_MLST.fasta
@@ -282,7 +281,7 @@ Questions:
 - Does the MLST gene tree support the splitting of *C. trachomatis* into trachoma and LGV biovars?
 - Do the strains cluster by serotype in the MLST tree?
 - What biological processes could account for these discrepancies?
-- Do you think ompA is a good gene for typing *C. trachomatis* isolates?
+- Do you think *ompA* is a good gene for typing *C. trachomatis* isolates?
 
 
 ---
@@ -291,7 +290,7 @@ Questions:
 ### Exercise 3: Phylogeny from whole genome SNPs <a name="exercise3"></a>
 In the past few years, with whole genome data being produced for large numbers of bacterial isolates, it has become possible to use variation from whole genomes for phylogenetic reconstruction.
 
-Although it is possible to extract whole genome variation from Artemis in the same way as we did for the MLST genes, this is not what Artemis was designed to do, making the process slow. However, there are ways we can extract SNPs from bcf variation files at the command line. Here we will use the “bcftools consensus” to make a new consensus sequence that contains your SNPs.
+Although it is possible to extract whole genome variation from Artemis in the same way as we did for the MLST genes, this is not what Artemis was designed to do, making the process slow. However, there are ways we can extract SNPs from bcf variation files at the command line. Here we will use the **“bcftools consensus”** to make a new consensus sequence that contains your SNPs.
 
 ```bash
 # At the prompt type the following command:
