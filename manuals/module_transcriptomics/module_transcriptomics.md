@@ -54,7 +54,7 @@ hisat2-build PccAS_v3_genome.fa PccAS_v3_hisat2idx
 Map the reads for the MT1 sample using HISAT2. Each of the following steps will take a couple of minutes. 
 
 ```shell
-# type the following into the terminal
+# type the following into the terminal (hisat2 may throw a syntax error - it is distressing but you can ignore it)
 hisat2 --max-intronlen 10000 -x PccAS_v3_hisat2idx -1 MT1_1.fastq.gz -2 MT1_2.fastq.gz -S MT1.sam
 ```
 
