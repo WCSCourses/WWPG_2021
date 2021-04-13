@@ -83,7 +83,7 @@ To begin the exercise we need to open up a terminal window. We will then need to
 ```shell
 # type (or copy and paste) the following into the terminal
 
-cd Module_2_Mapping
+cd Module_3_Mapping
 ```
 
 
