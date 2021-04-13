@@ -1,4 +1,4 @@
-# Module - *De novo* assembly
+# Genome assembly
 
 
 ## Table of contents
