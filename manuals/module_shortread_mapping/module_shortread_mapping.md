@@ -401,7 +401,7 @@ We will now take our NV.bam file and generate a BCF file from it which we will v
 
 bcftools mpileup -Ou -f L2_cat.fasta NV.bam | bcftools call -v -c --ploidy 1 -Ob --skip-variants indels > NV.bcf
 
-bcftools index NV.bcf
+bcftools index NV.bcf
 
 ```
 
