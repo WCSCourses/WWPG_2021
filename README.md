@@ -53,7 +53,7 @@ Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
   
 **Module 4 - Phylogenetics**  
      - [Introductory presentation](presentations/) - ***TO DO***  
-     - [Online manual](manuals/module_phylogenetics/module_phylogenetics.md) - ***TO DO***  
+     - [Online manual](manuals/module_phylogenetics/module_phylogenetics.md)
      - [Manual PDF version](manuals/) - ***TO DO***  
   
 **Module 5 - Genome Assembly**  
