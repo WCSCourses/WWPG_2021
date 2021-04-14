@@ -1,4 +1,4 @@
-   
+ ![](https://coursesandconferences.wellcomeconnectingscience.org/wp-content/themes/wcc_courses_and_conferences/dist/assets/svg/logo.svg) 
    
    
 # Working with Pathogen Genomes (Asia) (Virtual)
