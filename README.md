@@ -4,6 +4,17 @@
 # Working with Pathogen Genomes (Asia) (Virtual)
 Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
 
+# Course overview
+Understanding pathogen genomes, how they evolve and which genes are essential for their ability to cause disease, is a key part of the battle to reduce the global disease burden.
+
+This five-day computational course aims to give molecular microbiologists working with bacterial and eukaryotic pathogens a working knowledge of genomic analysis. The course will be taught by members of the Parasites & Microbes teams from the Wellcome Sanger Institute in collaboration with regional instructors and speakers, and will take the form of a series of modules covering the fundamental aspects of DNA sequence analysis and exploitation.
+
+The course begins with training in the use of genome analysis software (Artemis and ACT), developed at the Sanger Institute for genome exploration and comparative genomics. It then goes on to cover the mapping of Illumina sequence data, SNP calling, phylogenetics, genome assembly, genome annotation and RNA-seq.
+
+Each module will be introduced with a short talk, followed by hands-on worked examples using data from bacterial and eukaryotic pathogens. A key aspect of this course is the shared interest in pathogens between instructors and participants. This common understanding of the questions and problems presented by our work results in particularly fruitful interactions.
+
+The course is aimed at research scientists or clinicians/healthcare professionals based in institutes in Asia who are actively involved in, or soon to commence, relevant research on bacterial and eukaryotic pathogens. The course is free to attend for non-commercial applicants and limited bursaries are available to cover travel and accommodation expenses. The course will be taught in English.
+
 [Course website](https://coursesandconferences.wellcomeconnectingscience.org/event/working-with-pathogen-genomes-vietnam-2021/)
 
 ## Instructors
