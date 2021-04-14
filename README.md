@@ -4,7 +4,7 @@
 # Working with Pathogen Genomes (Asia) (Virtual)
 Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
 
-# Course overview
+## Course overview
 Understanding pathogen genomes, how they evolve and which genes are essential for their ability to cause disease, is a key part of the battle to reduce the global disease burden.
 
 This five-day computational course aims to give molecular microbiologists working with bacterial and eukaryotic pathogens a working knowledge of genomic analysis. The course will be taught by members of the Parasites & Microbes teams from the Wellcome Sanger Institute in collaboration with regional instructors and speakers, and will take the form of a series of modules covering the fundamental aspects of DNA sequence analysis and exploitation.
