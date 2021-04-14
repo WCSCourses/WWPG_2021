@@ -220,18 +220,18 @@ Column 4: b (fold change)
 
 Column 12: description (some more useful descriptionof the gene than its id) 
 
-With a little Linux magic we can get the list of differentially expressed genes with only the columns of interest as above. The following command will get those genes which have an adjusted p value less than 0,01 and a positive fold change. These genes are more highly expressed in SBP samples.
+With a little Linux magic we can get the list of differentially expressed genes with only the columns of interest as above. The following command will get those genes which have an adjusted p value less than 0.01 and a positive fold change. These genes are more highly expressed in SBP samples.
 
 ```shell
 # type the following into the terminal
-cut -f1,3,4,12 kallisto.results | awk '$2 < 0.01 && $3 > 0'
+cut -f1,2,4,5 kallisto.results | awk -F '\t' '$3 < 0.01 && $4 > 0'
 ```
 
 These genes are more highly expressed in MT samples:
 
 ```shell
 # type the following into the terminal
-cut -f1,3,4,12 kallisto.results | awk '$2 < 0.01 && $3 < 0'
+cut -f1,2,4,5 kallisto.results | awk -F '\t' '$3 < 0.01 && $4 < 0'
 ```
 
 How many genes are more highly expressed in each condition?
@@ -246,7 +246,7 @@ What does Sleuth think about it?
 
 ```shell
 # type the following into the terminal
-grep PCHAS_1402500 kallisto.results | cut –f1,3,4,12
+grep PCHAS_1402500 kallisto.results | cut –f1,2,4,5
 ```
 
 Although this gene looked like it was differentially expressed from the plots in Artemis our test did not show it to be so. This might be because some samples tended to have more reads, so based on raw read counts, genes generally look up-regulated in the SBP samples. Alternatively the reliability of only two biological replicates and the strength of the difference between the conditions was not sufficient to be statistically convincing. In the second case increasing the number of biological replicates would give us more confidence about whether there really was a difference. 
