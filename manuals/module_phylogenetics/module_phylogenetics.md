@@ -59,12 +59,15 @@ ompA_assembled.mfa in the Module 4 directory.
 
 Historically, the most commonly used tool for typing *C. trachomatis* isolates was
 serotyping using the MOMP (major outer membrane protein), which is encoded by the
-*ompA* gene. There are two biovars of *C. trachomatis*: 1) the trachoma biovar includes
-ocular and urogenital strains, which cause the majority of trachoma and STIs, and are
+*ompA* gene. There are two biovars of *C. trachomatis*:
+1. the trachoma biovar includes ocular and urogenital strains, which cause the majority of trachoma and STIs, and are
 characterised by localised infections of the epithelial surface of the conjunctiva or genital
-mucosa; 2) the lymphogranuloma venereum (LGV) biovar includes strains which are
+mucosa;
+2. the lymphogranuloma venereum (LGV) biovar includes strains which are
 distinguished by their ability to spread systemically thorough the lymphatic system,
-causing genital ulceration and bubonic disease. Based on MOMP serotyping, *C.trachomatis* has been subdivided into between 15 and 19 serotypes: the trachoma biovar includes ocular serotypes A to C and urogenital serotypes D to K, while the LGV biovar
+causing genital ulceration and bubonic disease.
+
+Based on MOMP serotyping, *C.trachomatis* has been subdivided into between 15 and 19 serotypes: the trachoma biovar includes ocular serotypes A to C and urogenital serotypes D to K, while the LGV biovar
 includes serotypes L1, L2 (including L2a, b and c) and L3.
 
 ### Viewing the alignment in Seaview
