@@ -45,7 +45,7 @@ The course is aimed at research scientists or clinicians/healthcare professional
   - Bacterial exercise   
 
 ### Detailed timetable
-[Download here](manuals/) - ***TO DO***
+[Download here](Vietnam 2021 virtual timetable.xlsx)
 
 
 ## Course manual
