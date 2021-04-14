@@ -4,7 +4,7 @@
 # Working with Pathogen Genomes (Asia) (Virtual)
 Hands-on training in genomic analysis of bacterial and eukaryotic pathogens
 
-![Course website](https://coursesandconferences.wellcomeconnectingscience.org/event/working-with-pathogen-genomes-vietnam-2021/)
+[Course website](https://coursesandconferences.wellcomeconnectingscience.org/event/working-with-pathogen-genomes-vietnam-2021/)
 
 ## Instructors
 - [Christine Boinett](https://www.sanger.ac.uk/person/boinett-christine/), Wellcome Sanger Institute, UK
