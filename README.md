@@ -83,7 +83,7 @@ The course is aimed at research scientists or clinicians/healthcare professional
      - [Online manual](manuals/exercise_RNAseq/exercise_RNAseq.md)  
      - [Manual PDF version](manuals/) - ***TO DO***  
   
-**Task 2 - Phylogenomics of Shigella**  
+**Task 2 - Phylogenomics of Salmonella**  
      - [Introductory presentation](presentations/) - ***TO DO***  
      - [Online manual](manuals/) - ***TO DO***  
      - [Manual PDF version](manuals/) - ***TO DO***  
