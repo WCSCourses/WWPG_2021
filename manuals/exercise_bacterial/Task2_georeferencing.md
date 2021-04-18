@@ -1,6 +1,6 @@
-#Task 2 - Georeferencing genomic data
+# Task 2 - Georeferencing genomic data
 
-##Table of contents
+## Table of contents
 1. [Introduction](##Introduction)
 2. [Phylogenetic analysis](##Phylogenetic-analysis)
 3. [Antimicrobial resistance Screening](##Antimicrobial-resistance-Screening)
@@ -9,13 +9,13 @@
 6. [Group discusssions](##Group-discussion)
 7. [Additional information](##Additional-information)
 
-##Introduction
+## Introduction
 
 Phylogenetic trees based on whole genome data tell us the about the relationships of bacterial isolates to each other on a very fine scale. When we combine that high resolution information about the evolutionary relationships of isolates with geographical data it can inform our understanding of the current distribution of the pathogen and allow us to infer the epidemiological processes that have acted on the pathogen over time. The simplest example of this would be if a phylogeny showed that a pathogen was geographically constrained (e.g. isolates from the same region always cluster together). This might indicate that the pathogen is not highly mobile, whereas a pathogen with a phylogeny that shows isolates from distant regions are equally likely to be related to each other as isolates from nearby is likely to be highly mobile across regional borders. Geographical referencing of genomic data can also be combined with temporal information to study the movement of pathogens in space and time in real time for use in outbreak detection and monitoring. 
  
 For this task, you will be split into teams. Using the skills you learned in the structured modules, your team will use the all the mapped sequences (.fa) produced in Module 7 and  to identify single nucleotide polymorphism (SNP) sites based on the reference sequence strain SL1344 and subsequently construct a phylogenetic tree. You will use the software [FigTree](http://tree.bio.ed.ac.uk/software/figtree/) to view and interpret your phylogeny and geo-reference your data using [Microreact](https://microreact.org/showcase) to develop your own hypotheses about the pathogen distribution. In addition, you will use the software [ARIBA](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5695208/) (Antibiotic Resistance Identification By Assembly) to investigate resistance genes in these strains and a free visualisation tool, Phandango to compare with the pathogen distribution observed in your tree.
 
-##The aims of this exercise are:
+## The aims of this exercise are:
 1. Introduce the biology & workflow
 2. Gain experience in building and interpreting phylogenetic trees 
 3. Introduce concepts and tools for geo-referencing metadata
@@ -24,18 +24,18 @@ For this task, you will be split into teams. Using the skills you learned in the
 6. Demonstrate the value of shared data resources 
 7. Gain experience in presenting the results of WGS Data analysis
 
-##Background
-###Biology
+## Background
+### Biology
 To learn about phylogenetic reconstruction and geo-referencing for epidemiological inference, we will work with some software that has already been introduced as well as some new software introduced in this module. We will work with real data from _Salmonella enetrica_ serovar Typhimurium sampled from regional labs in England and Wales, United Kingdom in 2015. 
 
-###_Salmonella enetrica_ serovar Typhimurium
+### _Salmonella enetrica_ serovar Typhimurium
 _Salmonella enterica_ is a diverse bacterial species that can cause disease in both human and animals. Human infections caused by _Salmonella_ can be divided into two, typhoidal _Salmonella_ or non-typhoidal _Salmonella_ (NTS). The former include Typhi and Paratyphi serovars that cause typhoid. NTS comprises of multiple serov   ars that cause self-limiting gastroenteritis in humans and is normally associated with zoonotic _Salmonella_ reservoirs, typically domesticated animals, with little or no sustained human-to-human transmission. 
 
 _Salmonella enterica_ serovar Typhimurium (_S._ Typhimurium), unlike the classical views of NTS, can cause an invasive form of NTS (iNTS), with distinct clinical representations to typhoid and gastroenteritis and normally characterized by a nonspecific fever that can be indistinguishable from malaria and in rare cases is accompanied by diarrhoea ([Okoro et al. Nature Genetics, 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3491877/)).
 
 Whole genome sequence analysis of this organism of provides some insight into the short-term microevolution of S. Typhimurium. Understanding the level of diversity in this time-period is crucial in attempting to identify if this is an outbreak or sporadic infection.
 
-##Your task
+## Your task
 The Global Health Authority (GHA) has asked you to provide an overview of Salmonella enterica serovar Typhimurium in England and Wales, using retrospective samples. You will need to generate a whole-genome sequencing based tree from all 24 sequences and correlate this to the geography of the city. You will also look into the distribution of antimicrobial resistance and investigate the genetic basis for the resistance phenotype you identified in the laboratory. At the end of the task we will split into groups to discuss your findings. Each group will be provided a question to present to the other learners regarding what you can conclude from the data. 
 
 The teams are the will be assigned on the day. Each team will have an instructor working with them to answer any questions.
@@ -48,7 +48,7 @@ The teams are the will be assigned on the day. Each team will have an instructor
 * Presentation and discussion with larger group – (45 mins)
 
 ---
-##Data provided 
+## Data provided 
 You will create a phylogenetic tree of the _S._ Typhimurium isolates from England and Wales. You will geo-reference this information, as well as antimicrobial resistance data, against the address of the isolates to form ideas about the distribution and epidemiology of the pathogen. Additionally, the genetic basis for the antimicrobial resistance will be explored. 
 
 To achieve this, you will be provided with the following files in the Task folder: 
@@ -62,21 +62,21 @@ To achieve this, you will be provided with the following files in the Task folde
 * And a PDF of the literature reference cited on page 2.
 
 ----
-##Other infromation
+## Other infromation
 
-###Your isolate names
+### Your isolate names
 
 The isolate names you can see in the subfolders of your group folder. There are two files for every isolate  `_1.fastq.gz` and `_2.fastq.gz.` These represent the forward and reverse reads of paired end sequencing for that isolate.   
 
 
 When you work with your own sequencing data after the course, other naming conventions will be used. As in the example above, it is likely this formats will include helpful pieces of information, so find out what your own sequencing data names mean when the time comes!  
 
-###How to use this module 
+### How to use this module 
 As in some previous modules, you will be provided with many of the commands you will need to perform the analysis. 
 
 We have provided you with a guide time for each task so that you will have plenty of time to ds your findings with the group. We strongly suggest you keep to these times.
 
-###Mini group discussion
+### Mini group discussion
 Once you have completed all the tasks you will need to compile your findings. We suggest you make summarise these in PowerPoint or Word with one slide per task. You can then reflect on your findings and draw conclusions about the data using all that you have learnt during the week. Examples of some of the exciting key images you might produce are below, but don’t be limited by these ideas - please be as creative as you like!
 
 <img src="images/img1.png">
@@ -85,9 +85,9 @@ Once you have completed all the tasks you will need to compile your findings. We
 [Back to top](##Table-of-contents)
 
 
-##Phylogenetic analysis
+## Phylogenetic analysis
 
-###General Information 
+### General Information 
 
 In this task you will construction of a tree from WGS data. You will map the sequence data to the _Salmonella enterica_ Typhimurium reference genome SL1344. To save on time, you will only be mapping the fastq files to 2.5 million base pairs of the genome. Although this will take a long time, keep in mind that this step would ordinarily take many more hours of computation time. 
 
@@ -100,7 +100,7 @@ A rough guide of the steps for this task is below and in the following schematic
 * **Step 3**. Build a phylogenetic tree from the SNP data in your alignment
 * **Step 4**. Interpret your phylogeny and report the lineages to the geo-referencer
 
-###Step 1: Map and call SNPs for each isolate
+### Step 1: Map and call SNPs for each isolate
 
 Your reference sequence for this is Salmonella enterica serovar Typhimurium strain SL1344, called `Salmonella_enterica_serovar_Typhimurium_SL1344_2.5MB.fasta` in the task folder. You may want to create a local copy in the directory you are working in by using the cp command. 
 
@@ -110,7 +110,7 @@ Map the sequencing data for each isolate to the reference genome and obtain a ps
 
 <img src="images/img2.png">
 
-###Step 2: Create a whole genome sequence alignment for your data 
+### Step 2: Create a whole genome sequence alignment for your data 
 
 Now you have created pseudogenomes (.fasta NOT .fastq) for each of your samples, you can use this data to create a sequence alignment to build a phylogenetic tree. Using this mapping based approach we are able to avoid the computational power required to align millions of base pairs of DNA that would be needed with e.g. CLUSTAL or MUSCLE. Here, because all of the isolates were mapped to the same reference genome, they are already the same length, so they can just be pasted together to form an alignment. 
 
@@ -130,7 +130,7 @@ You should now have a file containing 24 taxa each 2.5MB long. Most of the sites
 snp-sites -o All_snps.aln All.aln
 ```
 
-###Step 3: Build a phylogenetic tree from the SNP data in your genome alignment
+### Step 3: Build a phylogenetic tree from the SNP data in your genome alignment
 
 Now you will build a phylogenetic tree from the SNP alignment that you created in the last step. There are a lot of programs for building phylogenetic trees, and here we are going to use one called RAxML which evaluates trees based on maximum likelihood. 
 
@@ -156,7 +156,7 @@ Recall that with a single iteration of a maximum likelihood method you risk reco
 
 >`-N 20`	would run the program with 20 different starting trees (which is typically enough to find a problem if one exists).
 
-###Step 4: Interpret your phylogenetic tree
+### Step 4: Interpret your phylogenetic tree
 Open you final tree file (`RAxML_result.STm`) in FigTree and midpoint root it by selecting _Tree > Midpoint Root_. 
 
 You will need to this file that you have saved in FigTree in the subsequent georeferencing task, but you will need to save it in a specific format to be compatible with [Microreact](https://microreact.org/showcase). Go to _File > Export trees > select Newick file format_. Remember to save your file with a _.nwk_ suffix so that you know what type of file it is.
@@ -173,9 +173,9 @@ Then, using the relationships with the known lineages, define each of your isola
 ---
 [Back to top](##Table-of-contents)
 
-##Antimicrobial resistance Screening
+## Antimicrobial resistance Screening
 
-###General Information 
+### General Information 
 
 In this task you will screen your isolates for antimicrobial resistance (AMR) genes. You will correlate the phenotypic metadata with the genetic information contained in the isolates using a local assembly approach with [ARIBA](https://github.com/sanger-pathogens/ariba). ARIBA, Antimicrobial Resistance Identifier by Assembly, is a freely available tool that can be installed from the ARIBA github repository. This tool requires a FASTA input of reference sequences, which can be a mutli-fasta file or database of antibiotic resistance genes or non-coding sequences. This database will serve as one of your inputs and the other is paired sequence reads. ARIBA reports which of the reference sequences were found, plus detailed information on the quality of the assemblies and any variants between the sequencing reads and the reference sequences. 
 
@@ -187,7 +187,7 @@ Further information and installation instructions are detailed in the [ARIBA git
 * Step 3. Compare resistance gene present with metadata
 * Step 4. Summarise your findings in text and screen shots to report your findings
 
-###Step 1: Run ARIBA
+### Step 1: Run ARIBA
 
 Navigate to the `sequence_data` folder. To run ARIBA you will need to download and format the database. On the command line prompt, type:
 
@@ -215,7 +215,7 @@ Three files will be generated, a `.csv` file with the summary of all the runs an
 
 To understand the whole picture you will need to run ARIBA for ALL 24 samples. To save time, we have already done this for all 24 samples. Please use the files in the ariba_reports folder for subsequent steps. We suggest you run the analysis for a few samples to get an idea of the results. 
 
-###Step 2. Visualise in Phandango
+### Step 2. Visualise in Phandango
 
 <img src="images/img5.png">
 
@@ -225,7 +225,7 @@ Consult the [CARD database](https://card.mcmaster.ca/home) for the resistance ph
 
 <img src="images/img6.png">
 
-###Step 4: Summarise your findings for the presentation 
+### Step 4: Summarise your findings for the presentation 
 
 Some general points to consider when summarizing your finding for antimicrobial resistance (AMR) screen.
 * Does the presence of the gene correlate well with the phenotypic results? 
@@ -248,9 +248,9 @@ Although not highlighted as a AMR pattern for Salmonella strains, oral quinolone
 ---
 [Back to top](##Table-of-contents)
 
-##Georeferenceing
+## Georeferenceing
 
-###General Information 
+### General Information 
 
 Geo-referencing information from pathogens can provide insight into the processes that drive their epidemiology. This can be used to infer whether single introductions of a pathogen have occurred followed by local evolution or whether it transmits frequently across borders. It can also indicate regions affected by antimicrobial resistance (AMR). 
 
@@ -288,7 +288,7 @@ Update the latitude and longitude columns in your metadata file.
 
 When you are happy with your metadata sheet, we will now save this file as a CSV file, go to _File > Save as > Select ‘CSV UTF-8 (comma delimited) (.csv)_ from the drop down menu in _file format_ then _Save_. A dialogue box will appear asking if you are sure you want to save it as csv and some formatting may be lost, don’t worry about this, click _yes_. We are now ready to view our data in microreact.
 
-###Step 2: Create a map of the metadata of the isolates for your country
+### Step 2: Create a map of the metadata of the isolates for your country
 We will use [Microreact](http://microreact.org) to visualize and explore your trees and metadata.Microreact enables you to visualize phylogenetic relationships of isolates linked to geographic locations. One of the advantages of microreact is being able to display geographical locations along with the phylogenetic information, collectively known as phylogeography. You can also display other information you find useful and to do so, you need only format your metadata table. 
 
 <img src="images/img10.png">
@@ -315,7 +315,7 @@ The resulting map and tree enables you to query your data. Notice we have assign
 
 <img src="images/img12.png">
 
-####Customising your metadata
+#### Customising your metadata
 
 You can choose to customise you data further to include the antimicrobial resistance information. All you will have to do is add the resistance gene data from `out.summary.phandango.csv`. If you do so, make sure to follow the instructions as you did previously, making sure you denote the colour (presence or absence AMR data) correctly as detailed in the guidelines.
 
@@ -324,7 +324,7 @@ You can choose to customise you data further to include the antimicrobial resist
 ---
 [Back to top](##Table-of-contents)
 
-##Reporting
+## Reporting
 To assist you in reporting. We suggests you have a go at answering these questions and then discuss your answers with your mini group. 
 
 Look at the distribution of your isolates across the country when coloured by: 
@@ -345,7 +345,7 @@ Take screen shots of the images and compile a short report with your findings to
 ---
 [Back to top](##Table-of-contents)
 
-##Group discussion
+## Group discussion
 
 For each assigned group, you will have to discuss the questioned assigned to your group and this will form part of your presentation to the bigger group. You will need to choose a someone to lead the presentation. Please include slides containing images as part of your presentation to demonstrate your point.
 
@@ -360,16 +360,16 @@ Group questions:
 ---
 [Back to top](##Table-of-contents)
 
-##Additional information
+## Additional information
 
-###Why geo-tag your data  
+### Why geo-tag your data  
 
 Pathogens do not respect borders and global travel is increasingly frequent. For this reason the effective tracking and tracing of pathogens internationally is more important then ever. The analysis of your _S._ Typhimurium isolates tells us about how the pathogen behaves on a city-wide scale. To see if the epidemiology and resistance patterns you observed in your data translate to the global scale, we need effective collaboration. To do so effectively, good scientific citizenship encourages data sharing to be able to make meaningful interpretations and generate hypotheses form genomic data. 
 
 You can view open data (phylogenetic and metadata) for multiple bacterial species at [Pathogen Watch](https://pathogen.watch/).
 
 
-###Other geo-tagging resources. 
+### Other geo-tagging resources. 
 
 [WGSA](https://www.wgsa.net/): Is a web application for the processing, clustering and exploration of microbial genome assemblies. You can upload your assemblies and accompanying metadata to view assembly stats and view other metadata.  
 
