@@ -1,13 +1,13 @@
 # Task 2 - Georeferencing genomic data
 
 ## Table of contents
-1. [Introduction](##introduction)
-2. [Phylogenetic analysis](##phylogenetic-analysis)
-3. [Antimicrobial resistance Screening](##antimicrobial-resistance-Screening)
-4. [Georeferenceing](##georeferenceing)
-5. [Reporting](##reporting)
-6. [Group discusssions](##group-discussion)
-7. [Additional information](##additional-information)
+1. [Introduction](#introduction)
+2. [Phylogenetic analysis](#phylogenetic-analysis)
+3. [Antimicrobial resistance Screening](#antimicrobial-resistance-screening)
+4. [Georeferenceing](#georeferenceing)
+5. [Reporting](#reporting)
+6. [Group discusssions](#group-discussion)
+7. [Additional information](#additional-information)
 
 ## Introduction <a name="introduction"></a>
 
@@ -87,7 +87,7 @@ Once you have completed all the tasks you will need to compile your findings. We
 [↥ **Back to top**](#top)
 
 
-## Phylogenetic analysis
+## Phylogenetic analysis <a name="phylogenetic-analysis"></a>
 
 ### General Information 
 
@@ -185,7 +185,7 @@ Then, using the relationships with the known lineages, define each of your isola
 ---
 [↥ **Back to top**](#top)
 
-## Antimicrobial resistance Screening
+## Antimicrobial resistance Screening <a name="antimicrobial-resistance-screening"></a>
 
 ### General Information 
 
@@ -266,7 +266,7 @@ Although not highlighted as a AMR pattern for Salmonella strains, oral quinolone
 ---
 [↥ **Back to top**](#top)
 
-## Georeferenceing
+## Georeferenceing <a name="georeferenceing"></a>
 
 ### General Information 
 
@@ -352,7 +352,7 @@ You can choose to customise you data further to include the antimicrobial resist
 ---
 [↥ **Back to top**](#top)
 
-## Reporting
+## Reporting <a name="reporting"></a>
 To assist you in reporting. We suggests you have a go at answering these questions and then discuss your answers with your mini group. 
 
 Look at the distribution of your isolates across the country when coloured by: 
@@ -373,7 +373,7 @@ Take screen shots of the images and compile a short report with your findings to
 ---
 [↥ **Back to top**](#top))
 
-## Group discussion
+## Group discussion <a name="group-discussion"></a>
 
 For each assigned group, you will have to discuss the questioned assigned to your group and this will form part of your presentation to the bigger group. You will need to choose a someone to lead the presentation. Please include slides containing images as part of your presentation to demonstrate your point.
 
@@ -388,7 +388,7 @@ Group questions:
 ---
 [↥ **Back to top**](#top)
 
-## Additional information
+## Additional information <a name="additional-information"></a>
 
 ### Why geo-tag your data  
 
