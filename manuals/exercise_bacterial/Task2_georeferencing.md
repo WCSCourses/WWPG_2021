@@ -9,7 +9,7 @@
 6. [Group discusssions](##group-discussion)
 7. [Additional information](##additional-information)
 
-## Introduction
+## Introduction <a name="introduction"></a>
 
 Phylogenetic trees based on whole genome data tell us the about the relationships of bacterial isolates to each other on a very fine scale. When we combine that high resolution information about the evolutionary relationships of isolates with geographical data it can inform our understanding of the current distribution of the pathogen and allow us to infer the epidemiological processes that have acted on the pathogen over time. The simplest example of this would be if a phylogeny showed that a pathogen was geographically constrained (e.g. isolates from the same region always cluster together). This might indicate that the pathogen is not highly mobile, whereas a pathogen with a phylogeny that shows isolates from distant regions are equally likely to be related to each other as isolates from nearby is likely to be highly mobile across regional borders. Geographical referencing of genomic data can also be combined with temporal information to study the movement of pathogens in space and time in real time for use in outbreak detection and monitoring. 
  
@@ -84,7 +84,7 @@ Once you have completed all the tasks you will need to compile your findings. We
 </p>
 
 ---
-[Back to top](##table-of-contents)
+[↥ **Back to top**](#top)
 
 
 ## Phylogenetic analysis
