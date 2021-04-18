@@ -121,7 +121,6 @@ Now you have created pseudogenomes (.fasta NOT .fastq) for each of your samples,
 Due to time constrains we have mapped all the samples to the same reference. The file can be found in the pseudogenome folder. The pseudogenomes of all 24 strains were combined together using the cat command as below.  
 
 ```
-> # type this in the terminal in the directory you are working in.
 cat *_pseudogenome.fasta > All_pseudogenomes.fa
 ```
 
@@ -162,7 +161,9 @@ raxmlHPC -m GTRGAMMA -p 12345 –n STm -s All_snps.phy
 ```
 Recall that with a single iteration of a maximum likelihood method you risk recovering a tree from a local maximum, which means it might not be the best one. This can be avoided by running multiple iterations with different starting points (we can’t do that now because of time). The addition of multiple runs is done by adding the following flag to the command. 
 
->`-N 20`	would run the program with 20 different starting trees (which is typically enough to find a problem if one exists).
+```
+-N 20	# would run the program with 20 different starting trees (which is typically enough to find a problem if one exists).
+```
 
 ### Step 4: Interpret your phylogenetic tree
 Open you final tree file (`RAxML_result.STm`) in FigTree and midpoint root it by selecting _Tree > Midpoint Root_. 
