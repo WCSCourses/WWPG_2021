@@ -156,7 +156,8 @@ Save the file by going to _File > Save As > Format > Phylip(*.phy)_ as pictured 
 
 Then, back at the command line, run RAxML by typing the following: 
 
-```raxmlHPC -m GTRGAMMA -p 12345 –n STm -s All_snps.phy
+```
+raxmlHPC -m GTRGAMMA -p 12345 –n STm -s All_snps.phy
 ```
 Recall that with a single iteration of a maximum likelihood method you risk recovering a tree from a local maximum, which means it might not be the best one. This can be avoided by running multiple iterations with different starting points (we can’t do that now because of time). The addition of multiple runs is done by adding the following flag to the command. 
 
