@@ -79,7 +79,9 @@ We have provided you with a guide time for each task so that you will have plent
 ### Mini group discussion
 Once you have completed all the tasks you will need to compile your findings. We suggest you make summarise these in PowerPoint or Word with one slide per task. You can then reflect on your findings and draw conclusions about the data using all that you have learnt during the week. Examples of some of the exciting key images you might produce are below, but don’t be limited by these ideas - please be as creative as you like!
 
-<img src="images/img1.png">
+<p align="center">
+ <img src="images/img1.png">
+</p>
 
 ---
 [Back to top](##Table-of-contents)
