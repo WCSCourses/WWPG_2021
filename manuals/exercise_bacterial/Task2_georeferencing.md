@@ -1,13 +1,13 @@
 # Task 2 - Georeferencing genomic data
 
 ## Table of contents
-1. [Introduction](##introduction)
-2. [Phylogenetic analysis](##phylogenetic-analysis)
-3. [Antimicrobial resistance Screening](##antimicrobial-resistance-Screening)
-4. [Georeferenceing](##georeferenceing)
-5. [Reporting](##reporting)
-6. [Group discusssions](##group-discussion)
-7. [Additional information](##additional-information)
+1. [Introduction](## introduction)
+2. [Phylogenetic analysis](## phylogenetic-analysis)
+3. [Antimicrobial resistance Screening](## antimicrobial-resistance-Screening)
+4. [Georeferenceing](## georeferenceing)
+5. [Reporting](## reporting)
+6. [Group discusssions](## group-discussion)
+7. [Additional information](## additional-information)
 
 ## Introduction
 
@@ -84,7 +84,7 @@ Once you have completed all the tasks you will need to compile your findings. We
 </p>
 
 ---
-[Back to top](##table-of-contents)
+[Back to top](## table-of-contents)
 
 
 ## Phylogenetic analysis
