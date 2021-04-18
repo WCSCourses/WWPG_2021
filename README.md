@@ -85,7 +85,7 @@ The course is aimed at research scientists or clinicians/healthcare professional
   
 **Task 2 - Phylogenomics of Salmonella**  
      - [Introductory presentation](presentations/) - ***TO DO***  
-     - [Online manual](manuals/exercise_bacterial/Task2_georeferencing.md)
+     - [Online manual](manuals/exercise_bacterial/Task2_georeferencing.md)  
      - [Manual PDF version](manuals/) - ***TO DO***  
   
 **Appendix**  
