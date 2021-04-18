@@ -358,15 +358,15 @@ To assist you in reporting. We suggests you have a go at answering these questio
 Look at the distribution of your isolates across the country when coloured by: 
 * **Clade**
 
-* 1. How many clades are there?
-* 2. How are the isolates distributed? 
-* 3. Are there any patterns you can see to the distribution? 
-* 4. What factors might be driving the distribution?
+  1. How many clades are there?
+  2. How are the isolates distributed? 
+  3. Are there any patterns you can see to the distribution? 
+  4. What factors might be driving the distribution?
 
 * **Antimicrobial resistances**
-* 1. Are there patterns to any of the resistances? 
-* 2. And is this related to clades? 
-* 3. Are there any genes that confer resistance to antimicrobials used to treat _Salmonella_ cases?
+  1. Are there patterns to any of the resistances? 
+  2. And is this related to clades? 
+  3. Are there any genes that confer resistance to antimicrobials used to treat _Salmonella_ cases?
 
 Take screen shots of the images and compile a short report with your findings to help you answer the above questions.
 
