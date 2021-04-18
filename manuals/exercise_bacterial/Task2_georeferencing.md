@@ -183,7 +183,7 @@ Then, using the relationships with the known lineages, define each of your isola
 </p>
 
 ---
-[Back to top](##Table-of-contents)
+[↥ **Back to top**](#top)
 
 ## Antimicrobial resistance Screening
 
@@ -264,7 +264,7 @@ Although not highlighted as a AMR pattern for Salmonella strains, oral quinolone
 </p>
 
 ---
-[Back to top](##Table-of-contents)
+[↥ **Back to top**](#top)
 
 ## Georeferenceing
 
@@ -350,7 +350,7 @@ You can choose to customise you data further to include the antimicrobial resist
 **This step is not necessary for today due to time contraints, but you may want to give a try in your own time as this step may help you interpret your data better and obtain a great figure for a paper!**
 
 ---
-[Back to top](##Table-of-contents)
+[↥ **Back to top**](#top)
 
 ## Reporting
 To assist you in reporting. We suggests you have a go at answering these questions and then discuss your answers with your mini group. 
@@ -371,7 +371,7 @@ Look at the distribution of your isolates across the country when coloured by:
 Take screen shots of the images and compile a short report with your findings to help you answer the above questions.
 
 ---
-[Back to top](##Table-of-contents)
+[↥ **Back to top**](#top))
 
 ## Group discussion
 
@@ -386,7 +386,7 @@ Group questions:
 * **Group 4**: What other data might be useful to have, to improve your hypothesis of which strains may be part of an outbreak. To give you some ideas, we suggest downloading the [microreact metadata](https://microreact.org/project/GPS_tetSM) file from the [Lo et al., 2019](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(19)30297-X/fulltext) study.
 
 ---
-[Back to top](##Table-of-contents)
+[↥ **Back to top**](#top)
 
 ## Additional information
 
@@ -415,4 +415,4 @@ You can view open data (phylogenetic and metadata) for multiple bacterial specie
 
 End of module
 
-[Back to top](##Table-of-contents)
+[↥ **Back to top**](#top)
