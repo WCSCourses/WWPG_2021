@@ -110,7 +110,9 @@ Map the sequencing data for each isolate to the reference genome and obtain a ps
 
 **NOTE: Before you continue onto the next step, you must do some housekeeping. Refer to the mapping and phylogeny module, for which files you should remove.**
 
-<img src="images/img2.png">
+<p align="center">
+ <img src="images/img2.png">
+</p>
 
 ### Step 2: Create a whole genome sequence alignment for your data 
 
@@ -148,7 +150,9 @@ seaview All_snps.aln
 
 Save the file by going to _File > Save As > Format > Phylip(*.phy)_ as pictured below.
 
-<img src="images/img3.png">
+<p align="center">
+ <img src="images/img3.png">
+</p>
 
 Then, back at the command line, run RAxML by typing the following: 
 
@@ -170,7 +174,10 @@ Interpret your phylogenetic tree by first taking some time to make some general 
 
 Then, using the relationships with the known lineages, define each of your isolates as belonging to clades 1 and any additional lineages you would like to highlight. A picture of your tree as well as your general observations about it should go into your team presentation. Take some time to make figure(s) you are happy with and create a PDF picture file by selecting _File > export PDF._ 
 
+
+<p align="center">
 <img src="images/img4.png">
+</p>
 
 ---
 [Back to top](##Table-of-contents)
@@ -219,13 +226,17 @@ To understand the whole picture you will need to run ARIBA for ALL 24 samples. T
 
 ### Step 2. Visualise in Phandango
 
-<img src="images/img5.png">
+<p align="center">
+ <img src="images/img5.png">
+</p>
 
 On the left hand side is a dendogram of the phylogenetic relationship of the resistance data and the strains. On the top panel are the matching resistance genes found. The green colour indicates positive match and salmon pink is a negative match.
 
 Consult the [CARD database](https://card.mcmaster.ca/home) for the resistance phenotype of the genes detected. Note that underscores (_) in the output data denotes prime (‘) or bracket, therefore AAC_3_-II is AAC(3)-II. The codes for these in a file names ‘01.filter.check_metadata.tsv’ produced when you prepared your database (p.11). Consult the `report.tsv` of the particular sample of interest for the gene names. You can open both .tsv files in excel.
 
-<img src="images/img6.png">
+<p align="center">
+ <img src="images/img6.png">
+</p>
 
 ### Step 4: Summarise your findings for the presentation 
 
@@ -245,7 +256,9 @@ Ampicillin (A): _aac_, _aph_. Chlorampheniol (C): _cmlA_, _floR_. Streptmycin (S
 
 Although not highlighted as a AMR pattern for Salmonella strains, oral quinolones are used as a first line drug for Salmonella ddiarrhoeal illness. Resistance to quinolones are conferred by: _gyrA_, and _qnrS_. Other drugs used in the treatment of diarrhoeal illness  caused by Salmonella are azithromycin and ceftriaxone. You should note your strains do not confer resistance to either of these drugs.
 
-<img src="images/img7.png">
+<p align="center">
+ <img src="images/img7.png">
+</p>
 
 ---
 [Back to top](##Table-of-contents)
@@ -274,7 +287,9 @@ There are plenty of ways to get coordinates (e.g. using a simple search on googl
 
 Open a browser (preferably Chrome or Firefox) and navigate to Data-flo or click the link above. Click the _Get Started_ purple tab at the centre of the page. Click on the _Geocoder_ option  (circled). This _info_ page gives you more information how to use Data-Flo.
 
+<p align="center">
 <img src="images/img8.png">
+</p>
 
 Click the _RUN_ tab and you should see an option to input your location.
 
@@ -282,7 +297,9 @@ Open the `metadata.xls` file. You will notice, it only contains some very basic 
 
 Copy the data in the column titled _Address_. Navigate to the Data-flo _RUN_ page you just opened and paste the list in the _inputs_ locations box and click RUN.
 
-<img src="images/img9.png">
+<p align="center">
+ <img src="images/img9.png">
+</p>
 
 After only a few seconds, the software returns the results, which can be downloaded as a CSV file by clicking the link provided (circled in red). You can open this file in Excel using the _File > Import_ function.
 
@@ -293,7 +310,9 @@ When you are happy with your metadata sheet, we will now save this file as a CSV
 ### Step 2: Create a map of the metadata of the isolates for your country
 We will use [Microreact](http://microreact.org) to visualize and explore your trees and metadata.Microreact enables you to visualize phylogenetic relationships of isolates linked to geographic locations. One of the advantages of microreact is being able to display geographical locations along with the phylogenetic information, collectively known as phylogeography. You can also display other information you find useful and to do so, you need only format your metadata table. 
 
-<img src="images/img10.png">
+<p align="center">
+ <img src="images/img10.png">
+</p>
 
 Using either **Google Chrome** or **Firefox** internet browsers, go to the [microreact upload](https://microreact.org/upload) page.
 
@@ -307,7 +326,9 @@ You will need the NEWICK (.nwk) file from your phylogenetic analysis and the .cs
 
 Drag the relevant `.csv` file and `.nwk` in the _UPLOAD_ section on the website.
 
+<p align="center">
 <img src="images/img11.png">
+</p>
 
 You can include a different name for your projects and a brief description if you would like.   
 
@@ -315,7 +336,9 @@ Leave _project website_ section blank and your email is optional. Then _create p
 
 The resulting map and tree enables you to query your data. Notice we have assigned colour to the samples resistant or sensitive to aminoglycosides encoded by aadA2, but you can choose to group the samples however you want.   
 
+<p align="center">
 <img src="images/img12.png">
+</p>
 
 #### Customising your metadata
 
