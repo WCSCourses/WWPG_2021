@@ -120,7 +120,8 @@ Now you have created pseudogenomes (.fasta NOT .fastq) for each of your samples,
 
 Due to time constrains we have mapped all the samples to the same reference. The file can be found in the pseudogenome folder. The pseudogenomes of all 24 strains were combined together using the cat command as below.  
 
-```# type this in the terminal in the directory you are working in.
+```
+> # type this in the terminal in the directory you are working in.
 cat *_pseudogenome.fasta > All_pseudogenomes.fa
 ```
 
