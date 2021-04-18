@@ -66,7 +66,7 @@ The course is aimed at research scientists or clinicians/healthcare professional
   
 **Module 4 - Phylogenetics**  
      - [Introductory presentation](presentations/) - ***TO DO***  
-     - [Online manual](manuals/module_phylogenetics/module_phylogenetics.md)
+     - [Online manual](manuals/module_phylogenetics/module_phylogenetics.md). 
      - [Manual PDF version](manuals/) - ***TO DO***  
   
 **Module 5 - Genome Assembly**  
