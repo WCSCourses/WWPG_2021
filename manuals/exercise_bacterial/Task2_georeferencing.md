@@ -144,7 +144,7 @@ The reference is:
 
 Like all programs, RAxML has requirements for the format of input files. Your `All_snps.aln` file is multifasta format and RAxML requires [**phylip**](https://en.wikipedia.org/wiki/PHYLIP) format, so open the file in seaview and save it as phylip format under the name `All_snps.phy` by typing:
 
-```On the comand line type:
+```
 seaview All_snps.aln
 ```
 
@@ -161,7 +161,7 @@ raxmlHPC -m GTRGAMMA -p 12345 –n STm -s All_snps.phy
 ```
 Recall that with a single iteration of a maximum likelihood method you risk recovering a tree from a local maximum, which means it might not be the best one. This can be avoided by running multiple iterations with different starting points (we can’t do that now because of time). The addition of multiple runs is done by adding the following flag to the command. 
 
-```
+```shell
 -N 20	# would run the program with 20 different starting trees (which is typically enough to find a problem if one exists).
 ```
 
