@@ -332,6 +332,8 @@ Many SNP examples are quite clear, however this is not always the case. What if 
 
 We want to give you a biological example of how resequencing data can be really informative and valuable. Now do the following: using either the sliders, the GoTo menu or the ‘Navigator’, go to the end of the sequence or to base position 1043000. Adjust your view so you are in “Stack view” and have the depth of coverage graph showing. You might also need to adjust the Artemis window as well as the different panels.
 
+You many need to clone the window to view the coverage plt. You can do this by righ clicking on the BAM view window. IN teh new cloned windo, right click > Views > Coverage.
+
 If you adjust the zoom using the side sliders you should get a view similar to the one below. Notice two things: 1) the depth of coverage steps up at the beginning of the brown DNA line feature and 2) the coverage falls to zero within a region of this feature.
 
 - What could this mean?
