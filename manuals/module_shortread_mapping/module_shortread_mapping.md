@@ -187,7 +187,7 @@ Next we need to sort the mapped read sequences in the BAM file by typing this co
 ```shell
 # type (or copy and paste) the following into the terminal
 
-samtools sort –o NV.bam mapping.bam
+samtools sort mapping.bam –o NV.bam
 ```
 This will take a little time to run. By default the sorting is done by chromosomal/reference sequence and position.
 
