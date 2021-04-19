@@ -128,7 +128,7 @@ This produces a mutlifasta file ‘All_pseudogenomes.fa’ that contains all 24 
 
 Here, the * acts as a wildcard symbol and a single file containing all of the pseudogenome sequences pasted one after the other is created. Both `.fa` and `.fasta` files are sequence files, but the extension is useful for distinguishing files with single (`.fasta`) and multiple (`.fa`) sequences.
 
-Align the sequences in seaview as you were shown in the [Phylogenetics module](manuals/phylogenetics) and save the file as `All.aln`.
+Align the sequences in seaview as you were shown in the [Phylogenetics module](manuals/module_phylogenetics/module_phylogenetics.m) and save the file as `All.aln`.
 
 You should now have a file containing 24 taxa each 2.5MB long. Most of the sites in this alignment will be conserved and not provide useful information for phylogenetic inference, so we will shorten the alignment by extracting the variable sites using the program `snp-sites` by typing:
 
