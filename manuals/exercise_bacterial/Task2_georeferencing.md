@@ -203,24 +203,29 @@ Further information and installation instructions are detailed in the [ARIBA git
 
 Navigate to the `sequence_data` folder. To run ARIBA you will need to download and format the database. On the command line prompt, type:
 
-```ariba getref card out.card
+```
+ariba getref card out.card
 ```
 
 Next you will need to format the reference database for ARIBA. Type:
 
-```ariba prepareref –f out.card.fa –m out.card.tsv out.card.prepareref
+```
+
+ariba prepareref –f out.card.fa –m out.card.tsv out.card.prepareref
 ```
 
 Next you will need to run local assemblies and call variants, type:
 
-```ariba run out.card.prepareref reads_1.fastq.gz reads_2.fastq.gz out.run
+```
+ariba run out.card.prepareref reads_1.fastq.gz reads_2.fastq.gz out.run
 ```
 
 The command should take about 5 minutes per sample. Be patient and wait for the command prompt (denoted by a `$` sign).
 
 Next you will need to summarise the data from several runs. These are included in newly generated folders. You will combine the data in `report.tsv` files.
 
-```ariba summary out.summary out.run1/report1.tsv out.run2/report2.tsv out.run3/report3.tsv
+```
+ariba summary out.summary out.run1/report1.tsv out.run2/report2.tsv out.run3/report3.tsv
 ```
 
 Three files will be generated, a `.csv` file with the summary of all the runs and two .phandango files. You will need to drag and drop the `out.summary.phandango.tre` and `out.summary.phandango.csv` into the [Phandago website](http://jameshadfield.github.io/phandango/).
