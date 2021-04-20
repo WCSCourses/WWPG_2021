@@ -167,6 +167,9 @@ Recall that with a single iteration of a maximum likelihood method you risk reco
 -N 20	# would run the program with 20 different starting trees (which is typically enough to find a problem if one exists).
 ```
 
+Additionaly, running your RAxML with a bootstrap value denoted bythe '-b' option. Bootstrap values that denote the confidence or accuracy in each inferred node of the tree i.e. If choosing a value of `-b 100`, the resulting bootstrap value indicates how many times a particular node (topology), out of a hundred, is recovered when resampling, essentially estimating the confidence in the generated tree. More details on bootstraps can be found [here](http://europepmc.org/article/MED/12801728).
+
+
 ### Step 4: Interpret your phylogenetic tree
 Open you final tree file (`RAxML_result.STm`) in FigTree and midpoint root it by selecting _Tree > Midpoint Root_. 
 
