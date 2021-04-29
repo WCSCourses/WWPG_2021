@@ -269,7 +269,7 @@ Ampicillin (A): _aac_, _aph_. Chlorampheniol/Florfenicol (C): _cmlA_, _floR_. St
 
 Although not highlighted as a AMR pattern for _Salmonella_ strains, oral quinolones are used as a first line drug for _Salmonella_ diarrhoeal illness. Resistance to quinolones are conferred by: _gyrA_ (located on the chromosome), and _qnrS_ (located on the plasmid). Remember that chromosomal mutations are verticaly transmited (inherted). In contrast to plasmids that can be trasnmitted both vertically or horizontally (genetic transfer between cells) by a process known as [Horizontal Gene Transfer](https://en.wikipedia.org/wiki/Horizontal_gene_transfer#:~:text=Horizontal%20gene%20transfer%20(HGT)%20or,parent%20to%20offspring%20(reproduction)).
 
-Other drugs used in the treatment of diarrhoeal illness caused by _Salmonella_ are azithromycin (_mph_) and ceftriaxone (_bla_<sub>CTX-M</sub> and _bla_<sub>CMY-2</sub>. **Please note**, none of these strains confer resistance to either of these drugs.
+Other drugs used in the treatment of diarrhoeal illness caused by _Salmonella_ are azithromycin (_mph_) and ceftriaxone (_bla_<sub>CTX-M</sub> and _bla_<sub>CMY-2</sub>). **Please note**, none of these strains confer resistance to either of these drugs.
 
 <p align="center">
  <img src="images/img7.png">
