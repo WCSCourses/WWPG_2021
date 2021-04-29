@@ -294,7 +294,7 @@ In _Step 1_ you will be locating isolates based on their Address and filling out
 
 Eventually you will use the phylogenetic tree you generated along with the metadata file with GP locations to infer relationships between the samples. These will be the input files for Microreact.
 
-###Step 1: Batch geocoding to obtain the longitude and latitude of the isolates
+### Step 1: Batch geocoding to obtain the longitude and latitude of the isolates
 
 There are plenty of ways to get coordinates (e.g. using a simple search on google), however with multiple samples, it is easier to submit this in batches. You can use [Data-flo](https://data-flo.io/), which allows you to paste the name your locations, hit _Run_ and it returns a list of geographic coordinates. 
 
