@@ -42,9 +42,9 @@ The teams are the will be assigned on the day. Each team will have an instructor
 
 * You will need to compete the following steps to answer the research questions posed to you.  
 * Phylogenetic analysis– SNP-calling and phylogenetic inference (1hr)
-* Antimicrobial Resistance Screening  – ARIBA and Phandango (45 mins)
+* Antimicrobial Resistance Screening  – ARIBA and Phandango (1hr)
 * Geo-referenceing – geo-referencing with Microreact (1hr)
-* Reporting– mini group discussions (1hr)
+* Reporting– mini group discussions and preparation for presentation (45 mins)
 * Presentation and discussion with larger group – (45 mins)
 
 ---
