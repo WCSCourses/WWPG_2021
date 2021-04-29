@@ -267,7 +267,9 @@ Ampicillin (A): _aac_, _aph_. Chlorampheniol (C): _cmlA_, _floR_. Streptmycin (S
 
  _*Multiple genes can confer resistance to the same class of antimicrobials._
 
-Although not highlighted as a AMR pattern for Salmonella strains, oral quinolones are used as a first line drug for Salmonella ddiarrhoeal illness. Resistance to quinolones are conferred by: _gyrA_, and _qnrS_. Other drugs used in the treatment of diarrhoeal illness  caused by Salmonella are azithromycin and ceftriaxone. You should note your strains do not confer resistance to either of these drugs.
+Although not highlighted as a AMR pattern for _Salmonella_ strains, oral quinolones are used as a first line drug for _Salmonella_ diarrhoeal illness. Resistance to quinolones are conferred by: _gyrA_ (locate on the chromosome), and _qnrS_ (located on the plasmid). Remember that chromosomal mutations are verticaly transmited (inherted). In contrast to plasmids that can be trasnmitted both vertically or horizontally (genetic transfer between cells) by a process known as [Horizontal Gene Transfer](https://en.wikipedia.org/wiki/Horizontal_gene_transfer#:~:text=Horizontal%20gene%20transfer%20(HGT)%20or,parent%20to%20offspring%20(reproduction)).
+
+Other drugs used in the treatment of diarrhoeal illness caused by _Salmonella_ are azithromycin and ceftriaxone. None of your strains confer resistance to either of these drugs.
 
 <p align="center">
  <img src="images/img7.png">
