@@ -263,13 +263,13 @@ Discuss  with your group members your answers to the above questions. Consolidat
 To help you in your discussions, summarized in the table below are the most frequently observed antimicrobial resistance patterns of _S._ Typhimurium strains between 1996 and 2016 taken from [Wang et al., 2019 (PMID: 311340204)](https://pubmed.ncbi.nlm.nih.gov/31134024/).
 
 Below are genes found in your* isolates that confer resistance to some of the antibiotics below. Can you match isolates to any of the patterns listed? 
-Ampicillin (A): _aac_, _aph_. Chlorampheniol (C): _cmlA_, _floR_. Streptmycin (S): _aadA2_. Sulfonamide (Su): _sul2_ and _sul3_. Tetracycline (T): _tet_.
+Ampicillin (A): _aac_, _aph_. Chlorampheniol/Florfenicol (C): _cmlA_, _floR_. Streptmycin (S): _aadA2_. Sulfonamide (Su): _sul2_ and _sul3_. Tetracycline (T): _tet_.
 
  _*Multiple genes can confer resistance to the same class of antimicrobials._
 
-Although not highlighted as a AMR pattern for _Salmonella_ strains, oral quinolones are used as a first line drug for _Salmonella_ diarrhoeal illness. Resistance to quinolones are conferred by: _gyrA_ (locate on the chromosome), and _qnrS_ (located on the plasmid). Remember that chromosomal mutations are verticaly transmited (inherted). In contrast to plasmids that can be trasnmitted both vertically or horizontally (genetic transfer between cells) by a process known as [Horizontal Gene Transfer](https://en.wikipedia.org/wiki/Horizontal_gene_transfer#:~:text=Horizontal%20gene%20transfer%20(HGT)%20or,parent%20to%20offspring%20(reproduction)).
+Although not highlighted as a AMR pattern for _Salmonella_ strains, oral quinolones are used as a first line drug for _Salmonella_ diarrhoeal illness. Resistance to quinolones are conferred by: _gyrA_ (located on the chromosome), and _qnrS_ (located on the plasmid). Remember that chromosomal mutations are verticaly transmited (inherted). In contrast to plasmids that can be trasnmitted both vertically or horizontally (genetic transfer between cells) by a process known as [Horizontal Gene Transfer](https://en.wikipedia.org/wiki/Horizontal_gene_transfer#:~:text=Horizontal%20gene%20transfer%20(HGT)%20or,parent%20to%20offspring%20(reproduction)).
 
-Other drugs used in the treatment of diarrhoeal illness caused by _Salmonella_ are azithromycin and ceftriaxone. None of your strains confer resistance to either of these drugs.
+Other drugs used in the treatment of diarrhoeal illness caused by _Salmonella_ are azithromycin (_mph_) and ceftriaxone (_bla_<sub>CTX-M</sub> and _bla_<sub>CMY-2</sub>. **Please note**, none of these strains confer resistance to either of these drugs.
 
 <p align="center">
  <img src="images/img7.png">
