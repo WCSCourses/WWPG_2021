@@ -408,17 +408,6 @@ Pathogens do not respect borders and global travel is increasingly frequent. For
 
 You can view open data (phylogenetic and metadata) for multiple bacterial species at [Pathogen Watch](https://pathogen.watch/).
 
-
-### Other geo-tagging resources. 
-
-[WGSA](https://www.wgsa.net/): Is a web application for the processing, clustering and exploration of microbial genome assemblies. You can upload your assemblies and accompanying metadata to view assembly stats and view other metadata.  
-
-[EpiCollect](www.epicollect.net): Is a freely available web and mobile app tool that is used for data collection (questionnaires), using multiple mobile phones and the data can be centrally viewed using Google maps/ tables and charts.
-
-[Phylocanvas](http://phylocanvas.net): Metadata in binary format can be displayed next to the tree leaves by uploading a `.csv` file together with the tree file.
-
-[CartoDB](https://cartodb.com/): Much like the Google maps exercise you completed, CartoDB allows the user to map and analyze location data . This tool can take multiple file formats as input e.g. XLS, CSV and SQL amongst others.
-
 ---
 
 **DISCLAIMER: All the locations and dates of the Salmonella isolates are fictitious and solely for educational purposes.  No data was collected from Public Health England.**
