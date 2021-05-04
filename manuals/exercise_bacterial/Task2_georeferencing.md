@@ -394,8 +394,8 @@ ALL the questions will require you to scrutinise you at least one of your data s
 Group questions:
 * **Group 1**: Looking at the phylogenetic relationship of the strains and associated metadata, which strain do you think are part of an outbreak? What measurements can you use to support your hypothesis. Hint: Look at the month of colleciton.
 * **Group 2**: What resistance genes confer resistance to clinically relevant antibiotics for treating Salmonella infections? Hint: read the last page of instructions of the AMR screen.
-* **Group 3**: How do you think genes encoded on the plasmids can affect the interpretation of the data. Hint: are any isolates genetically similar to others sensitive to antibiotics whose gene may be encoded on a plasmid.
-* **Group 4**: What other data might be useful to have, to improve your hypothesis of which strains may be part of an outbreak. To give you some ideas, we suggest downloading the [microreact metadata](https://microreact.org/project/GPS_tetSM) file from the [Lo et al., 2019](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(19)30297-X/fulltext) study.
+* **Group 3**: How do you think genes encoded on the plasmids can affect the interpretation of the data? Hint: are any isolates genetically similar to others sensitive to antibiotics whose gene may be encoded on a plasmid.
+* **Group 4**: What other data might be useful to have, to improve your hypothesis of which strains may be part of an outbreak? To give you some ideas, we suggest downloading the [microreact metadata](https://microreact.org/project/GPS_tetSM) file from the [Lo et al., 2019](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(19)30297-X/fulltext) study.
 
 ---
 [↥ **Back to top**](#top)
