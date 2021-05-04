@@ -52,48 +52,48 @@ The course is aimed at research scientists or clinicians/healthcare professional
 **Module 1 - Artemis**  
      - [Introductory presentation](presentations/) - ***TO DO***  
      - [Online manual](manuals/module_artemis/module_artemis.md)  
-     - [Manual PDF version](manuals/) - ***TO DO***  
+     - [Manual PDF version](manuals/module_artemis/module_artemis.pdf)  
   
 **Module 2 - Linux & Scripting**  
      - [Introductory presentation](presentations/) - ***TO DO***  
      - [Online manual](manuals/module_linux_scripting/module_linux_scripting.md)  
-     - [Manual PDF version](manuals/)  - ***TO DO***  
+     - [Manual PDF version](manuals/module_linux_scripting/module_linux_scripting.pdf)  
   
 **Module 3 - Short Read Mapping**  
      - [Introductory presentation](presentations/) - ***TO DO***  
      - [Online manual](manuals/module_shortread_mapping/module_shortread_mapping.md)  
-     - [Manual PDF version](manuals/) - ***TO DO***  
+     - [Manual PDF version](manuals/module_shortread_mapping/module_shortread_mapping.pdf)  
   
 **Module 4 - Phylogenetics**  
      - [Introductory presentation](presentations/) - ***TO DO***  
      - [Online manual](manuals/module_phylogenetics/module_phylogenetics.md)  
-     - [Manual PDF version](manuals/) - ***TO DO***  
+     - [Manual PDF version](manuals/module_phylogenetics/module_phylogenetics.pdf)   
   
 **Module 5 - Genome Assembly**  
      - [Introductory presentation](presentations/) - ***TO DO***  
      - [Online manual](manuals/module_denovo_assembly/module_denovo_assembly.md)  
-     - [Manual PDF version](manuals/) - ***TO DO***  
+     - [Manual PDF version](manuals/module_denovo_assembly/module_denovo_assembly.pdf)    
   
 **Module 6 - Transcriptomics**  
      - [Introductory presentation](presentations/WWPG_VietnamVirtual_Talk_Module6_transcriptomics.pdf)  
      - [Online manual](manuals/module_transcriptomics/module_transcriptomics.md)  
-     - [Manual PDF version](manuals/) - ***TO DO***   
+     - [Manual PDF version](manuals/module_transcriptomics/module_transcriptomics.pdf)   
   
 **Task 1 - Sexual development in malaria parasites**  
      - [Online manual](manuals/exercise_RNAseq/exercise_RNAseq.md)  
-     - [Manual PDF version](manuals/) - ***TO DO***  
+     - [Manual PDF version](manuals/exercise_RNAseq/exercise_RNAseq.pdf)  
   
 **Task 2 - Phylogenomics of Salmonella**  
      - [Introductory presentation](presentations/) - ***TO DO***  
      - [Online manual](manuals/exercise_bacterial/Task2_georeferencing.md)  
-     - [Manual PDF version](manuals/) - ***TO DO***  
+     - [Manual PDF version](manuals/exercise_bacterial/Task2_georeferencing.pdf) 
   
 **Appendix**  
      - [Manual PDF version](manuals/WWPG_VietnamVirtual_Appendix.pdf)  
 
 
 
-Any reuse of the course materials, data or code is encouraged with due acknowledgement. **WHAT DO WE WANT TO SAY HERE SPECIFICALLY**
+Any reuse of the course materials, data or code is encouraged with due acknowledgement.
 
 ******
 ## License
