@@ -905,7 +905,7 @@ $ awk -F"\t" '{$2="new_source"; print $0}' genes.gff
 
 ```bash
 # This is achieved by adding "BEGIN{OFS="\t"}" to the code, as below. Before awk reads any lines of the file, it reads the BEGIN block of code, in this case, changing OFS to a tab character.
-$ awk -F"\t" ''BEGIN{OFS="\t"} {$2="new_source"; print $0}' genes.gff
+$ awk -F"\t" 'BEGIN{OFS="\t"} {$2="new_source"; print $0}' genes.gff
 
 ```
 
