@@ -55,7 +55,7 @@ The course is aimed at research scientists or clinicians/healthcare professional
      - [Manual PDF version](manuals/module_artemis/module_artemis.pdf)  
   
 **Module 2 - Linux & Scripting**  
-     - [Introductory presentation](presentations/) - ***TO DO***  
+     - [Introductory presentation](presentations/WWPG_Module2_LinuxScripting_Introduction.pdf)  
      - [Online manual](manuals/module_linux_scripting/module_linux_scripting.md)  
      - [Manual PDF version](manuals/module_linux_scripting/module_linux_scripting.pdf)  
   
