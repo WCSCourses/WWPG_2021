@@ -26,7 +26,7 @@ The aim of this module is to become familiar with the basic functions of Artemis
  ***Starting up the Artemis software***  
  Double click the Artemis icon on the desktop.
 
- A small start-up window will appear (see below). The directory Module_3_Artemis contains all files you will need for this module.
+ A small start-up window will appear (see below). The directory Module_1_Artemis contains all files you will need for this module.
  Now follow the sequence of numbers to load up the Salmonella Typhi chromosome sequence.
  Ask a demonstrator for help if you have any problems.
 
