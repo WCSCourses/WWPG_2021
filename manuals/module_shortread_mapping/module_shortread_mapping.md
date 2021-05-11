@@ -426,15 +426,13 @@ Now let’s do a bit of house keeping because many of the files we have created 
 ```shell
 # type (or copy and paste) the following into the terminal
 
-mapping.sam mapping.bam L2_cat.fasta.amb L2_cat.fasta.ann L2_cat.fasta.bwt L2_cat.fasta.pac L2_cat.fasta.sa L2_cat.fasta.fai
-```
-You can do this either in your terminal window with UNIX command rm (see below):
-```shell
-# type (or copy and paste) the following into the terminal
+rm mapping.sam mapping.bam L2_cat.fasta.amb L2_cat.fasta.ann L2_cat.fasta.bwt L2_cat.fasta.pac L2_cat.fasta.sa L2_cat.fasta.fai
 
-rm files
+# make sure to check to see that the files have been deleted
+
+ls -lrt
+
 ```
-OR you can use the more conventional file manager if you prefer.
 
 
 
