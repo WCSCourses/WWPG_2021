@@ -297,7 +297,7 @@ Although it is possible to extract whole genome variation from Artemis in the sa
 
 ```bash
 # At the prompt type the following command:
-samtools faidx L2_cat.fasta “AM884176.1” | bcftools consensus ../Module_4_Mapping/NV.bcf > NV_WGS.fasta
+samtools faidx L2_cat.fasta “AM884176.1” | bcftools consensus ../Module_3_Mapping/NV.bcf > NV_WGS.fasta
 
 # Note: you are using the variants contained in the bcf that you generated in Module_4
 ```
@@ -307,7 +307,7 @@ The command is in two parts separated by a pipe ‘|’, which simply tells the 
 
 The first command uses **samtools faidx** to extract a single reference sequence from a multi-sequence fasta file. In this case, we only want the genome sequence, and not the plasmid sequence that is in this file.
 
-The second part of the command uses **bcftools consensus** to take the SNP calls you generated yesterday in Module 4 and together with the reference sequnece (obtained from faidx), to make a new fasta sequence that now contains your SNP calls.
+The second part of the command uses **bcftools consensus** to take the SNP calls you generated yesterday in Module 3 and together with the reference sequnece (obtained from faidx), to make a new fasta sequence that now contains your SNP calls.
 
 Finally the result is redirected into a file called **NV_WGS.fastq**.
 
