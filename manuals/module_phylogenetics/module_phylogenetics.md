@@ -214,7 +214,7 @@ A number of MLST schemes have been devised for *C. trachomatis*, but we will use
 
 ![](figures/12_mlst.PNG)
 
-If **Artemis** is not open, start it now and open the L2_cat.fasta reference. Read in the annotation (L2_cat.embl) by **’Read Entry Into’**. Open the NV.bcf file by selecting **‘Read BAM / VCF’** from the **‘File’** menu.
+If **Artemis** is not open, start it now and open the L2_cat.fasta reference. Read in the annotation (L2_cat.embl) by **’Read Entry Into’**. Open the NV.vcf.gz file by selecting **‘Read BAM / VCF’** from the **‘File’** menu.
 
 ![](figures/13_artemis.PNG)
 
