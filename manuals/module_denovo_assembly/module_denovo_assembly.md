@@ -326,7 +326,7 @@ There are a number of ways to compare genomes. We will be using nucmer to do the
 cd /home/manager/Module_5_helminth_denovo_assembly/step_4  
 
 
-# run nucmer to generate the comparison between the reference and each genome assembly. We have provided one example, but we would like you to run all three assemblies against the reference.
+# run nucmer to generate the comparison between the reference and each genome assembly. We have provided one example, but we would like you to modify the command to also run the SPADES assembly against the reference. Note that it might take a while longer to run.
 
 nucmer -maxmatch -l 100 -c 500 SM_V7_chr4.fa ../step_3/PB_SM_V7_chr4.contigs.fasta -prefix chr4_v_PB
 
