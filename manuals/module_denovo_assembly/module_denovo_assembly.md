@@ -48,7 +48,7 @@ To assemble the 47 Mb chromosome IV, we will use the following workflow and demo
 ```bash
 # your first command – move to the working directory to get started!
 
-cd /home/manager/Module_4_Assembly
+cd /home/manager/Module_5_helminth_denovo_assembly/
 ```
 ---
 [↥ **Back to top**](#top)
