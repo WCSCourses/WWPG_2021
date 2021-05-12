@@ -247,7 +247,7 @@ Check that you have selected the correct seven genes. Next we will write out the
 
 We are now ready to write out the alignment of the NV MLST genes. To do this, make sure the correct genes are selected in the embl file and right click on the bcfview panel. From the menu choose **‘Write’ -> ‘Fasta of selected features’**. You will be asked for a filename for the alignment file. Call it NV_MLST.fasta. Note the three options on the right hand side of the save dialogue box.
 
-![](figures/18_artemis.PNG)
+![](figures/MLST_update.png)
 
 - The **‘Combine feature sequences’** option is useful if you have selected more than one feature in the reference when choosing to write the bcf sequences. With this option selected, the sequences of each feature will be concatenated together in one file. If you deselect this option you will save one fasta per feature selected. We need to make sure this option is selected.
 - The **‘Use N for filtered out sites’** tells Artemis that when a site fails the chosen filters, that base should be written as an N (unknown) in the alignment. If you deselect this box any site that fails any of the filters will be saved in the alignment as the reference base. Why might it be a bad idea?
