@@ -246,7 +246,7 @@ The process of error correction does take a substantial amount of time and compu
 ```bash
 # go to the working directory
 
-cd /home/manager/Module_4_Assembly/step_3  
+cd /home/manager/Module_5_helminth_denovo_assembly/step_3  
 
 
 # run the Miniasm assembly
