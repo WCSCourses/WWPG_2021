@@ -297,7 +297,7 @@ Although it is possible to extract whole genome variation from Artemis in the sa
 
 ```bash
 # At the prompt type the following command:
-samtools faidx L2_cat.fasta “AM884176.1” | bcftools consensus ../Module_3_Mapping/NV.bcf > NV_WGS.fasta
+samtools faidx L2_cat.fasta 'AM884176.1' | bcftools consensus ../Module_3_Mapping/NV.bcf > NV_WGS.fasta
 
 # Note: you are using the variants contained in the bcf that you generated in Module_4
 ```
