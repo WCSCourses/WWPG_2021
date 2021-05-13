@@ -70,7 +70,7 @@ The course is aimed at research scientists or clinicians/healthcare professional
      - [Manual PDF version](manuals/module_phylogenetics/module_phylogenetics.pdf)   
   
 **Module 5 - Genome Assembly**  
-     - [Introductory presentation](presentations/) - ***TO DO***  
+     - [Introductory presentation](presentations/WWPG_Module5_GenomeAssembly_Introduction.pdf)   
      - [Online manual](manuals/module_denovo_assembly/module_denovo_assembly.md)  
      - [Manual PDF version](manuals/module_denovo_assembly/module_denovo_assembly.pdf)    
   
